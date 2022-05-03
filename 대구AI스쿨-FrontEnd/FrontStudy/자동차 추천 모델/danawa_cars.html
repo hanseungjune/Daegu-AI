@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>danawwa_carchoice</title>
+</head>
+<style>
+    @font-face {
+        font-family: 'twayair';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    html {
+        font-family: 'twayair';
+        width: 600px;
+        height: 600px;
+        background-color: black;
+        position: relative;
+        padding: 0px 450px;
+    }
+
+    body {
+        font-family: 'twayair';
+        background-color: aliceblue;
+        margin: 70px 0px auto;
+        height: 250px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    div {
+        border: 1px solid black;
+        display: block;
+        margin: 10px 100px;
+        padding: 10px;
+        width: 400px;
+    }
+
+    ul {
+        text-decoration: none;
+        text-align: left;
+    }
+
+    .sub {
+        display: inline-flex;
+        width: 50px;
+        height: 5px;
+        padding-top: -20px;
+    }
+</style>
+<!-- <script>
+    let size = document.querySelectorAll(".size");
+let fuel = document.querySelectorAll(".fuel");
+let brand = document.querySelectorAll(".brand");
+let i, j, k;
+let execute;
+
+function choice() {
+    for (i = 1; i < size.length; i++) {
+        var car_size = size[i];
+        if (car_size == 1) {
+            for (j = 1; j < fuel.length; j++) {
+                var car_fuel = fuel[j];
+                if (car_fuel == 1) {
+                    for (k = 1; k < brand.length; k++) {
+                        var car_brand = brand[k];
+                        if (car_brand == 1) {
+                            document.write("https://auto.danawa.com/newcar/?&page=1");
+                        }
+                        else if (car_brand == 2) {
+                            window.open("");
+                        }
+                        else if (car_brand == 3) {
+                            window.open("");
+                        }
+                        else if (car_brand == 4) {
+                            window.open("");
+                        }
+                    }
+                }
+                else if (car_fuel == 2) {
+                    for (k = 1; k < brand.length; k++) {
+                        var car_brand = brand[k];
+                        if (car_brand == 1) {
+                            window.open("");
+                        }
+                        else if (car_brand == 2) {
+                            window.open("");
+                        }
+                        else if (car_brand == 3) {
+                            window.open("");
+                        }
+                        else if (car_brand == 4) {
+                            window.open("");
+                        }
+                    }
+                }
+                else if (car_fuel == 3) {
+                    for (k = 1; k < brand.length; k++) {
+                        var car_brand = brand[k];
+                        if (car_brand == 1) {
+                            window.open("");
+                        }
+                        else if (car_brand == 2) {
+                            window.open("");
+                        }
+                        else if (car_brand == 3) {
+                            window.open("");
+                        }
+                        else if (car_brand == 4) {
+                            window.open("");
+                        }
+                    }
+                }
+                else if (car_fuel == 4) {
+                    for (k = 1; k < brand.length; k++) {
+                        var car_brand = brand[k];
+                        if (car_brand == 1) {
+                            window.open("");
+                        }
+                        else if (car_brand == 2) {
+                            window.open("");
+                        }
+                        else if (car_brand == 3) {
+                            window.open("");
+                        }
+                        else if (car_brand == 4) {
+                            window.open("");
+                        }
+                    }
+                }
+            }
+        }
+        else if (car_size == 2) {
+            for (j = 1; j < fuel.length; j++) {
+                var car_fuel = fuel[j];
+                if (car_fuel == 1) {
+                    for (k = 1; k < brand.length; k++) {
+                        var car_brand = brand[k];
+                        if (car_brand == 1) {
+                            window.open("");
+                        }
+                        else if (car_brand == 2) {
+                            window.open("");
+                        }
+                        else if (car_brand == 3) {
+                            window.open("");
+                        }
+                        else if (car_brand == 4) {
+                            window.open("");
+                        }
+                    }
+                }
+                else if (car_fuel == 2) {
+                    for (k = 1; k < brand.length; k++) {
+                        var car_brand = brand[k];
+                        if (car_brand == 1) {
+                            window.open("");
+                        }
+                        else if (car_brand == 2) {
+                            window.open("");
+                        }
+                        else if (car_brand == 3) {
+                            window.open("");
+                        }
+                        else if (car_brand == 4) {
+                            window.open("");
+                        }
+                    }
+                }
+                else if (car_fuel == 3) {
+                    for (k = 1; k < brand.length; k++) {
+                        var car_brand = brand[k];
+                        if (car_brand == 1) {
+                            window.open("");
+                        }
+                        else if (car_brand == 2) {
+                            window.open("");
+                        }
+                        else if (car_brand == 3) {
+                            window.open("");
+                        }
+                        else if (car_brand == 4) {
+                            window.open("");
+                        }
+                    }
+                }
+                else if (car_fuel == 4) {
+                    for (k = 1; k < brand.length; k++) {
+                        var car_brand = brand[k];
+                        if (car_brand == 1) {
+                            window.open("");
+                        }
+                        else if (car_brand == 2) {
+                            window.open("");
+                        }
+                        else if (car_brand == 3) {
+                            window.open("");
+                        }
+                        else if (car_brand == 4) {
+                            window.open("");
+                        }
+                    }
+                }
+            }
+        }
+        else if (car_size == 3) {
+            for (j = 1; j < fuel.length; j++) {
+                var car_fuel = fuel[j];
+                if (car_fuel == 1) {
+                    for (k = 1; k < brand.length; k++) {
+                        var car_brand = brand[k];
+                        if (car_brand == 1) {
+                            window.open("");
+                        }
+                        else if (car_brand == 2) {
+                            window.open("");
+                        }
+                        else if (car_brand == 3) {
+                            window.open("");
+                        }
+                        else if (car_brand == 4) {
+                            window.open("");
+                        }
+                    }
+                }
+                else if (car_fuel == 2) {
+                    for (k = 1; k < brand.length; k++) {
+                        var car_brand = brand[k];
+                        if (car_brand == 1) {
+                            window.open("");
+                        }
+                        else if (car_brand == 2) {
+                            window.open("");
+                        }
+                        else if (car_brand == 3) {
+                            window.open("");
+                        }
+                        else if (car_brand == 4) {
+                            window.open("");
+                        }
+                    }
+                }
+                else if (car_fuel == 3) {
+                    for (k = 1; k < brand.length; k++) {
+                        var car_brand = brand[k];
+                        if (car_brand == 1) {
+                            window.open("");
+                        }
+                        else if (car_brand == 2) {
+                            window.open("");
+                        }
+                        else if (car_brand == 3) {
+                            window.open("");
+                        }
+                        else if (car_brand == 4) {
+                            window.open("");
+                        }
+                    }
+                }
+                else if (car_fuel == 4) {
+                    for (k = 1; k < brand.length; k++) {
+                        var car_brand = brand[k];
+                        if (car_brand == 1) {
+                            window.open("");
+                        }
+                        else if (car_brand == 2) {
+                            window.open("");
+                        }
+                        else if (car_brand == 3) {
+                            window.open("");
+                        }
+                        else if (car_brand == 4) {
+                            window.open("");
+                        }
+                    }
+                }
+            }
+        }
+        else if (car_size == 4) {
+            for (j = 1; j < fuel.length; j++) {
+                var car_fuel = fuel[j];
+                if (car_fuel == 1) {
+                    for (k = 1; k < brand.length; k++) {
+                        var car_brand = brand[k];
+                        if (car_brand == 1) {
+                            window.open("");
+                        }
+                        else if (car_brand == 2) {
+                            window.open("");
+                        }
+                        else if (car_brand == 3) {
+                            window.open("");
+                        }
+                        else if (car_brand == 4) {
+                            window.open("");
+                        }
+                    }
+                }
+                else if (car_fuel == 2) {
+                    for (k = 1; k < brand.length; k++) {
+                        var car_brand = brand[k];
+                        if (car_brand == 1) {
+                            window.open("");
+                        }
+                        else if (car_brand == 2) {
+                            window.open("");
+                        }
+                        else if (car_brand == 3) {
+                            window.open("");
+                        }
+                        else if (car_brand == 4) {
+                            window.open("");
+                        }
+                    }
+                }
+                else if (car_fuel == 3) {
+                    for (k = 1; k < brand.length; k++) {
+                        var car_brand = brand[k];
+                        if (car_brand == 1) {
+                            window.open("");
+                        }
+                        else if (car_brand == 2) {
+                            window.open("");
+                        }
+                        else if (car_brand == 3) {
+                            window.open("");
+                        }
+                        else if (car_brand == 4) {
+                            window.open("");
+                        }
+                    }
+                }
+                else if (car_fuel == 4) {
+                    for (k = 1; k < brand.length; k++) {
+                        var car_brand = brand[k];
+                        if (car_brand == 1) {
+                            window.open("");
+                        }
+                        else if (car_brand == 2) {
+                            window.open("");
+                        }
+                        else if (car_brand == 3) {
+                            window.open("");
+                        }
+                        else if (car_brand == 4) {
+                            window.open("");
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+</script>                                          # 꼭 구현하고 만다! ㅡㅡ -->
+<body>
+
+    <h1>원하는 자동차 옵션을 선택해보세요!</h1>
+    <div>
+        <form method="post">
+            <ul>
+                <li>
+                    차종 :
+                    <select id="car_size">
+                        <option class="size" name="0" value="==선택하시오==" selected>==선택하시오==</option>
+                        <option class="size" name="1" value="경차, 소형">경차, 소형</option>
+                        <option class="size" name="2" value="중형">중형</option>
+                        <option class="size" name="3" value="대형">대형</option>
+                        <option class="size" name="4" value="SUV">SUV</option>
+                    </select><br>
+                </li>
+                <li>
+                    유류 :
+                    <select id="car_fuel">
+                        <option class="fuel" name="0" value="==선택하시오==" selected>==선택하시오==</option>
+                        <option class="fuel" name="1" value="휘발유">휘발유</option>
+                        <option class="fuel" name="2" value="경유">경유</option>
+                        <option class="fuel" name="3" value="LPG">LPG</option>
+                        <option class="fuel" name="4" value="전기">전기</option>
+                    </select><br>
+                </li>
+                <li>
+                    제조사 :
+                    <select id="car_brand">
+                        <option class="brand" name="0" value="==선택하시오==" selected>==선택하시오==</option>
+                        <option class="brand" name="1" value="현대">현대</option>
+                        <option class="brand" name="2" value="기아">기아</option>
+                        <option class="brand" name="3" value="쉐보레">쉐보레</option>
+                        <option class="brand" name="4" value="제네시스">제네시스</option>
+                    </select>
+                </li>
+            </ul>
+            <input type="button" value="클릭!" onclick="choice();">
+        </form>
+    </div>
+</body>
+
+</html>

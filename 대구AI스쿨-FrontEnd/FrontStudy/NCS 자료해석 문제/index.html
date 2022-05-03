@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @font-face {
+        font-family: 'SUIT-Medium';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    ul.circled {
+        list-style-type: none;
+    }
+
+    ul.circled>li {
+        text-indent: -1.25em;
+        font-size: 15px;
+    }
+
+    html {
+        background-color: aliceblue;
+        height: 700px;
+    }
+
+    body {
+        width: 600px;
+        height: 700px;
+        margin: 0 auto;
+        background-color: white;
+        padding-top: 20px;
+    }
+
+    .table1 {
+        margin: 30px 25px;
+        width: 550px;
+        height: 400px;
+        display: block;
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    .ba {
+        text-indent: 1.25em;
+    }
+
+    table {
+        margin-top: -5px;
+        width: 500px;
+        margin-left: 25px;
+    }
+
+    caption {
+        text-align: right;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .t1 {
+        width: 110px;
+        font-size: 13px;
+        background-color: rgba(168, 238, 230, 0.262);
+    }
+
+    .tr1 {
+        height: 10px;
+        background-color: rgba(168, 238, 230, 0.262);
+    }
+
+    .tr1>th {
+        font-size: 13px;
+    }
+
+    td {
+        font-size: 13px;
+        padding: 1px 10px;
+        text-align: right;
+    }
+
+    #small {
+        font-size: 13px;
+
+    }
+
+    #sol {
+        width: 70px;
+    }
+
+    #sol2 {
+        margin-left: 20px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <b class="ba">&nbsp;&nbsp;&nbsp;&nbsp;다음은 우리나라의 에너지 수입액 및 수입의존도에 대한 자료이다. 이어지는 &nbsp;&nbsp;&nbsp;&nbsp;질문에 답하시오.</b>
+        <div class="table1">
+            <br>
+            <table border="3">
+                <caption>&lt;표 1&gt;&nbsp;에너지 수입액&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(단위 : 백만 달러)</caption>
+                <tr class="tr1">
+                    <th class="t1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <th>2008</th>
+                    <th>2009</th>
+                    <th>2010</th>
+                    <th>2011</th>
+                </tr>
+                <tr>
+                    <th class="t1">총수입액</th>
+                    <td>435,275</td>
+                    <td>323,085</td>
+                    <td>425,212</td>
+                    <td>524,413</td>
+                </tr>
+                <tr>
+                    <th class="t1">에너지 수입 합계</th>
+                    <td>141,475</td>
+                    <td>91,160</td>
+                    <td>121,654</td>
+                    <td>172,490</td>
+                </tr>
+                <tr>
+                    <th class="t1">석탄</th>
+                    <td>12,809</td>
+                    <td>9,995</td>
+                    <td>13,131</td>
+                    <td>18,477</td>
+                </tr>
+                <tr>
+                    <th class="t1">석유</th>
+                    <td>108,130</td>
+                    <td>66,568</td>
+                    <td>90,902</td>
+                    <td>129.346</td>
+                </tr>
+                <tr>
+                    <th class="t1">천연가스</th>
+                    <td>19,806</td>
+                    <td>13,875</td>
+                    <td>17,006</td>
+                    <td>23,859</td>
+                </tr>
+                <tr>
+                    <th class="t1">우라늄</th>
+                    <td>729</td>
+                    <td>722</td>
+                    <td>615</td>
+                    <td>807</td>
+                </tr>
+            </table>
+            <b id="small">&#8251; 총수입액은 에너지 수입액을 포함한 국내로 수입되는 모든 제품의 수입액을 의미함</b>
+            <br>
+            <br>
+            <table border="3">
+                <caption>&lt;표 2&gt;&nbsp;에너지수입의존도&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(단위 : %)</caption>
+                <tr class="tr1">
+                    <th colspan="2" class="t1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <th>2008</th>
+                    <th>2009</th>
+                    <th>2010</th>
+                    <th>2011</th>
+                </tr>
+                <tr>
+                    <th rowspan="2" class="t1">에너지수입의존도</th>
+                    <th class="t1">원자력발전 제외</th>
+                    <td>96.4</td>
+                    <td>96.4</td>
+                    <td>96.5</td>
+                    <td>96.4</td>
+                </tr>
+                <tr>
+                    <th class="t1">원자력발전 포함</th>
+                    <td>83.0</td>
+                    <td>83.4</td>
+                    <td>84.4</td>
+                    <td>84.7</td>
+                </tr>
+            </table>
+            <b id="small">&#8251; 에너지 수입의존도는 1차 에너지 공급량 중 순수입 에너지가 차지하는 비중을 의미함</b>
+        </div>
+        <b class="ba">&nbsp;&nbsp;&nbsp;&nbsp;Q. 다음 중 위 자료에 대해 적절하게 설명하지 못한 사람은?</b>&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="정답은?" id="sol" onclick="inputsol();">
+        <ul class="circled">
+            <li>① 도훈：2009년에 에너지 공급량 중 원자력 발전의 의존도는 13.0%라고 할 수 있어.</li>
+            <li>② 종인：2009년에 에너지 수입 합계가 급격하게 감소했고, 그 이후로는 다시 꾸준히 증가하고 있어.</li>
+            <li>③ 정관：조사기간 동안 우라늄의 수입액은 전체 에너지 수입합계의 1%를 넘은 적이 없어.</li>
+        </ul>
+
+        <input type="button" value="해설!" id="sol2" onclick="location.href='https://m.blog.naver.com/ybsmanager/220802269103'">
+    </div>
+    <script>
+        function inputsol() {
+            let sol1 = prompt("정답은?","사람이름 두자로 적어주세요.")
+        
+            if ( sol1 !== null ) {
+                if ( sol1 == "도훈") {
+                    alert("오... 맞췄네? 닝겐 ㅇㅈ")
+                }
+                else {
+                    alert("니가 사람 새키냐...")
+                }
+            }
+            else alert("왜 취소함? 쫄?")
+        }
+    </script>
+</body>
+
+</html>
