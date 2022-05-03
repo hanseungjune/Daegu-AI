@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        h1 {
+            border-bottom: 5px solid green;
+        }
+
+        .a1 {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        #container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+    </style>
+<body>
+    <script>
+        function night() {
+            document.querySelector('body').style.backgroundColor = 'black';
+            document.querySelector('body').style.color = 'white';
+            let a_ = document.querySelectorAll('a');
+            for(let i = 0 ; i < a_.length ; i++ ) {
+                a_[i].style.color = 'white';
+            }
+        }
+
+        function day() {
+            document.querySelector('body').style.backgroundColor = 'white';
+            document.querySelector('body').style.color = 'black';
+            let a_ = document.querySelectorAll('a');
+            for(let i = 0 ; i < a_.length ; i++ ) {
+                a_[i].style.color = 'black';
+            }
+        }
+    </script>
+    <input type="button" value="night" onclick="
+        let btn = this;
+        if(btn.value === 'night') {
+            night();
+            btn.value = 'day';
+        }
+        else {
+            day();
+            btn.value = 'night';
+        }
+    ">
+
+    <h1><a class="a1" href="index.html">web</a></h1>
+
+    <div id="container">
+        <ol>
+            <li><a class="a1" href="html.html">html</a></li>
+            <li><a class="a1" href="css.html">css</a></li>
+            <li><a class="a1" href="javascript.html">javascript</a></li>
+        </ol>
+        <div>
+            <h2>welcome</h2>
+            <b>Hello, web</b>
+        </div>
+    </div>
+</body>
+</html>

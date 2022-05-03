@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>grid:grid-template-columns</title>
+</head>
+<style>
+  div {
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  #container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    /* 1대 1대 1로 나눔 */
+  }
+  
+  p {
+    font-family: 'Rubik Moonrocks', cursive;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+<body>
+  <div><a href="index.html">index</a></div>
+
+  <div id="container">
+  <div><a href="html.html">html</a></div>
+  <div><a href="css.html">css</a></div>
+  <div><a href="javascript.html">javascript</a></div>
+  </div>
+
+  <div><p>footer</p></div>
+</body>
+</html>

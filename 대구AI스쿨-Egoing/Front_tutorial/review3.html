@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+</head>
+<style>
+    h1 {
+        border-bottom: 10px solid green !important;
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    body {
+        background-image: url(https://picsum.photos/500);
+        background-repeat: no-repeat;
+        background-position-x: 500px;
+        background-position-y: 230px;
+    }
+</style>
+
+<body>
+
+    <input type="button" value="1" onclick="
+        alert(this.value);
+    ">
+    <input type="button" value="2" onclick="
+        alert(this.value);
+    ">
+
+    <input type="button" id="dnbtn" value="night" onclick="
+    let button = this;
+    // let button = document.querySelector('#dnbtn');
+    if ( button.value === 'night' ) {
+    document.querySelector('body').style.backgroundColor = '#36213E';
+    document.querySelector('body').style.color = '#B8F3FF';
+    document.querySelector('.ak').style.color = '#B8F3FF';
+    button.value = 'day';
+    }
+    else {
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+    document.querySelector('.ak').style.color = 'black';
+    button.value = 'night';
+    }">
+
+    <input type="button" value="night" onclick="
+    document.querySelector('body').style.backgroundColor = '#36213E';
+    document.querySelector('body').style.color = '#B8F3FF';
+    document.querySelector('.ak').style.color = '#B8F3FF';
+    ">
+
+    <input type="button" value="day" onclick="
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+    document.querySelector('.ak').style.color = 'black';
+    ">
+
+    <h1 style="border-bottom:10px solid green;"><a href="index.html">Web</a></h1>
+    <div id="container">
+        <ol>
+            <li><a class="ak" href="html.html">html</a></li>
+            <li><a class="ak" href="css.html">css</a></li>
+            <li><a class="ak" href="javascript.html">js</a></li>
+        </ol>
+        <DIV>
+            <h2>Welcome</h2>
+            Hello, WEB.
+        </DIV>
+    </div>
+</body>
+
+</html>

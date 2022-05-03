@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript</title>
+</head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R4D8C5J49G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R4D8C5J49G');
+</script>
+<link rel="stylesheet" href="syntax.css"></style>
+<style>
+  h1 {
+    border-bottom: 5px solid green;
+    padding-bottom: 5px;
+  }
+
+  #container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+</style>
+<body>
+  <input type="button" value="night" 
+  onclick="document.querySelector('body').style.backgroundColor = 'black';
+           document.querySelector('li').style.color = 'white';
+           document.querySelector('h1').style.color = 'white';
+           document.querySelector('a').style.color = 'white';
+           document.querySelector('li a').style.color = 'white';
+           document.querySelectorAll('.none').style.color = 'white';"><br>
+
+  <h1 class="em">WEB</h1>
+  <div id ="container">
+    <div>
+      <ol>
+        <b>
+        <li class="em" id="vip"><b><a class="em" id="vip" href="html.html">html</a></li>
+        </b>
+        <li class="none"><a href="css.html">css</a></li>
+        <li class="none"><a href="javascript.html">javascript</a></li>
+      </ol>
+    </div>
+    <div>
+      <h2><a href="grid.html">Welcome!_grid</a></h2>
+    </div>
+    <div>
+      <h2>Hello WEB!</h2>
+    </div>
+  </div>
+</body>
+
+</html>

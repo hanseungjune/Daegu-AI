@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <h1>Program</h1>
+    <script>
+        console.log(1);
+        console.log(2);
+        console.log(3);
+    </script>
+
+    <h1>Number</h1>
+    <script>
+        console.log(1);
+        console.log(1.2);
+        console.log(1+1);
+        console.log(2-1);
+        console.log(2*2);
+        console.log(6/2);
+        console.log(Math.pow(3,2));
+        console.log(Math.random());
+    </script>
+    <h1>String</h1>
+    <script>
+        console.log('Hello');
+        console.log("Hello");
+        console.log(`Hello
+        World`);
+        console.log('Hello'.length);
+        console.log('Hell world'.replace('Hell','Hello'));
+    </script>
+    <h1>Array</h1>
+    <script>
+        let member = ['egoing','duru','taeho'];
+        console.log(member[0]);
+    </script>
+
+    <h1>Variable</h1>
+    <script>
+        let a = 1;
+        let name = '한승준';
+        console.log(`안녕하세요... ${name}님, .... 이고잉 .... 안녕히계세요 ${name}님`);
+    </script>
+
+    <h1>Input</h1>
+    <script>
+        // 가격 = prompt('가격?');
+        가격 = 10000;
+        부가가치세 = 0.1;
+        document.write(가격*부가가치세);
+    </script>
+
+    <h1>Boolean</h1>
+    <script>
+        console.log(true);
+        console.log(false);
+        console.log(1===1);
+        console.log(1===2);
+        console.log(1>2);
+        console.log(1<2);
+    </script>
+
+    <h1>Conditional Statements</h1>
+    <script>
+        console.log(1);
+        if(true) {
+            console.log(2);
+            console.log(3);
+        }
+        console.log(4);
+
+        console.log(1);
+        if(false) {
+            console.log(2);
+            console.log(3);
+        }
+        console.log(4);
+
+        console.log(1);
+        if(true) {
+            console.log(2.1);
+            console.log(3.1);
+        } else {
+            console.log(2.2);
+            console.log(3.3);
+        }
+        console.log(4);
+
+        console.log(1);
+        if(false) {
+            console.log(2.1);
+            console.log(3.1);
+        } else {
+            console.log(2.2);
+            console.log(3.3);
+        }
+        console.log(4);
+    </script>
+
+    <h1>Login</h1>
+    <input type="button" value="login" onclick="
+        let named = prompt('이름이?');
+        if ( named === '한승준' ) {
+            alert(`${named}님 어서오세요!`);
+        }
+        else {
+            window.close();
+        }
+    ">
+
+    <h1>Loop</h1>
+    <script>
+        member = ['egoing','duru'];
+        document.write("<ul>");
+            for(let i = 0 ; i < member.length ; i++) {
+                document.write(`<li>${member[i]}</li>`);
+            }
+        document.write("</ul>");
+
+        member = {name:'egoing', city:'seoul'};
+        document.write(member.name);
+    </script>
+    
+    <h1>function</h1>
+    <script>
+        function sum(a,b) {
+            return a+b;
+        }
+
+        console.log(sum(10,20));
+    </script>
+
+    <h1>실습</h1>
+    <input type="button" value="부가세계산기" onclick="
+        let 가격 = parseInt(prompt('가격?'));
+        alert(가격* 0.1);
+    ">
+</body>
+</html>

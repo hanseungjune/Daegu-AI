@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+
+<body>
+    <h1>function</h1>
+    <script>
+        function abc() {
+            document.write('a');
+            document.write('b');
+            document.write('c');
+        }
+
+        for (let i = 1; i < 11; i++) {
+            document.write(i);
+            abc();
+            document.write("<br>");
+        }
+    </script>
+
+    <h1>VAT</h1>
+    <script>
+
+        function 부가세계산(가격, 부가세율) {             //가격이라는 매개변수를 설정하면 (parameter)
+            let 부가세 = 가격 * 부가세율;
+            return 부가세;
+        }
+
+        console.log(부가세계산(1500, 0.1));             // 입력값 (argument)
+
+    </script>
+
+    <h1>SUM</h1>
+    <script>
+
+        function sum(val1, val2) {
+            return val1 + val2;
+        }
+        console.log(sum(100,200)*10);
+    </script>
+
+    <h1>Object</h1>     <!--객체-->
+    <script>
+        let student = ['egoing','duru'];
+        console.log(student[0], student[1]);
+
+        let member = {developer:'egoing', designer:'duru'};
+        console.log(member.developer, member.designer);
+
+        let person = {name:'egoing', city:'seoul',job:'developer'};
+        console.log(person.name, person.city, person.job);
+
+        let MyMath = {}
+        MyMath.PI = 3.14;
+        MyMath.sum = function(val1, val2){
+            return val1+val2;
+        }
+
+        console.log(MyMath.PI);
+        console.log(MyMath.sum(10,20));
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>..</title>
+</head>
+
+<body>
+    <script>
+        function night() {
+            document.querySelector('body').style.backgroundColor = 'black';
+            document.querySelector('body').style.color = 'white';
+            let a_ = document.querySelectorAll('a');
+            for (i = 0; i < a_.length; i++) {
+                a_[i].style.color = 'white';
+            }
+        }
+
+        function day() {
+            document.querySelector('body').style.backgroundColor = 'white';
+            document.querySelector('body').style.color = 'black';
+            let a_ = document.querySelectorAll('a');
+            for (i = 0; i < a_.length; i++) {
+                a_[i].style.color = 'black';
+            }
+        }
+    </script>
+    <h1><a id="a1" href="index.html">web</a></h1>
+    <ol>
+        <li><a id="a2" href="html.html">html</a></li>
+        <li><a id="a3" href="css.html">css</a></li>
+        <li><a id="a4" href="javascript.html">javascript</a></li>
+    </ol>
+    <h2>Welcome</h2>
+    The workshop connected the web platform and the <a id="a5" href="https://www.w3.org/">professional media</a>
+    production communities
+    and explored evolutions of the web platform to address professional media production req
+    uirements. 24 workshop talks were published in October 2021, about 40 issues were discus
+    sed online, and 3 live sessions were held mid-November 2021 that convened more than 75 e
+    xperts to exchange on specific media production needs for the web platform.
+
+    <input type="button" value="night" onclick="
+        let btn = this;
+        if ( btn.value === 'night' ) {
+            night();
+            btn.value = 'day';
+        } else {
+            day();
+            btn.value = 'night';
+            }
+    ">
+
+    <!-- JS CheatSheet 참고 -->
+
+    <br><br>
+    <script>
+        let tag = '';
+        for (let i = 0; i < 2000; i++) {
+            tag = tag + `<input type="button" onclick="
+                this.style.backgroundColor='red';" value="${i}" >`
+        }
+        document.write(tag);
+
+        let inputs = document.querySelectorAll('input[type="button"]');
+
+        for (let i = 0; i < inputs.length; i++) {
+            if (i < 502) {
+                if (i > 100) {
+                    inputs[i].click();
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

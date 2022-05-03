@@ -1,0 +1,66 @@
+Welcome to the Glitch console
+
+If you’re following someone else’s instructions make sure you trust them.
+If in doubt post a question in our forum https://support.glitch.com
+
+For now, the console and the editor don't automatically sync. You can
+manually run the `refresh` command and it will force a refresh,
+updating the editor with any console-created files.
+
+For more information about this and other technical restrictions,
+please see the Help Center: https://glitch.com/help
+
+app@tinted-east-dish:~ 14:12 
+$ sqlite3
+SQLite version 3.11.0 2016-02-15 17:29:24
+Enter ".help" for usage hints.
+Connected to a transient in-memory database.
+Use ".open FILENAME" to reopen on a persistent database.
+sqlite> .open sqlite3
+sqlite> .open db.sqlite3
+sqlite> .tables
+topics
+sqlite> .schema topics
+CREATE TABLE topics (
+id INTEGER PRIMARY KEY,
+title TEXT NOT NULL,
+body TEXT
+);
+sqlite> SELECT * FROM topics;
+1|SQLite|SQLite is ...
+sqlite> .exit 
+
+app@tinted-east-dish:~ 14:16 
+$ ls -l
+total 16
+-rw-r--r--  1 app app 2048 Apr 11 11:19 db.sqlite3
+drwxrwxr-x 45 app app 1024 Dec  9  2016 node_modules
+drwxrwxr-x  2 app app 1024 Jul 25  2018 public
+drwxr-xr-x  2 app app 1024 Apr 11 10:55 __pycache__
+-rw-rw-r--  1 app app  578 Jul 25  2018 README.md
+-rw-r--r--  1 app app  189 Apr 11 14:11 read.py
+-rw-rw-r--  1 app app   14 Jul 25  2018 requirements.txt
+-rw-rw-r--  1 app app 2336 Apr 11 11:01 server.py
+-rw-r--r--  1 app app    0 Apr 11 14:13 sqlite3
+-rw-rw-r--  1 app app  125 Apr 11 10:55 start.sh
+drwxrwxr-x  2 app app 1024 Dec  9  2016 static
+-rw-r--r--  1 app app   34 Mar 22  2019 test.py
+-rw-r--r--  1 app app  223 Mar 22  2019 test.pyc
+drwxrwxr-x  2 app app 1024 Jul 25  2018 views
+
+app@tinted-east-dish:~ 14:16 
+$ python3 read.py
+1 SQLite
+
+app@tinted-east-dish:~ 14:17 
+$ python3 read.py
+[(1, 'SQLite', 'SQLite is ...')]
+
+app@tinted-east-dish:~ 14:18 
+$ python3 read.py
+1 SQLite
+
+*DROP table topics; 테이블삭제*
+*SELECT * FROM topics WHERE id=? , (id,);  테이블내용 읽어오기*
+*INSERT INTO topics (title, body) VALUES (?, ?), (title,body);  테이블에 내용 삽입*
+*DELETE FROM topics WHERE id=?, (id,);
