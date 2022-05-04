@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼 태그</title>
+</head>
+
+<body>
+    <h3>자기소개서 작성</h3>
+    <label for="">이름: <input type="text" value="소놀" disabled></label><br>
+    <label for="">암호: <input type="password" value="소놀" maxlength="4"></label><br>
+    <label for="">
+        자기소개서:<br>
+        <textarea rows="5" cols="30" placeholder="여기에 입력하세요"></textarea>
+    </label><br><br>
+
+    <label for="">선호과일 <input type="text"></label><br>
+    <label for="food">먹고싶은 음식은?</label>
+    <select id="food">
+        <option value="1">짜장면</option>
+        <option value="2">짬뽕</option>
+        <option value="3" selected>탕수육</option>
+    </select>
+
+    <br><br>
+
+    <input type="radio" name="fruit">바나나<br>
+    <input type="radio" name="fruit">포도<br>
+    <input type="radio" name="fruit">수박<br>
+
+    <form action="https://search.naver.com/search.naver">
+        <label for="query">
+            사는 곳: <input type="text" name="query" placeholder="ㅇㅇ광역시 ㅇㅇ구 ㅇㅇ로(도로명)" size="40">
+            <input type="submit" value="검색">
+        </label>
+    </form>
+
+    <br><br>
+
+    좋아하는 색깔은?<br>
+    <label for="red"><input type="checkbox" name="red">빨강</label><br>
+    <label for="blue"><input type="checkbox" name="blue">파랑</label><br>
+    <label for="yellow"><input type="checkbox" name="yellow">노랑</label><br>
+    <label for="and"><input type="checkbox" name="andsoon">기타<input type="color" value="#00bfff" onchange="document.body.style.color=this.value"></label><br>
+
+    <h3>시간정보입력</h3>
+
+    <input type="month" value="2010-12"><br>
+    <input type="week" value="2022-W30"><br>
+    <input type="date" value="2012-01-01"><br>
+    <input type="datetime-local" value="2012-01-01T06:10:10"><br>
+    <input type="time" value="21:30"><br>
+
+    <br><br>
+
+    <h3>홈제어시스템</h3>
+    지속시간(0.0~10.0시간): <input type="number" max="10.0" min="0.0" step="0.5"><br>
+    온도설정:10&deg; <input type="range" min="10" max="30" list="temp">&nbsp;30&deg;<br>
+    <datalist id="temp">
+        <option value="12" label="low"></option>
+        <option value="20" label="mid"></option>
+        <option value="28" label="high"></option>
+    </datalist>
+
+    <br><br>
+
+    <h3>정보입력</h3>
+    <hr>
+    <fieldset>
+        <legend>필수항목(모두 입력해주세요)</legend>
+        <input type="email" placeholder="id@host"><br>
+        <input type="url" placeholder="http://"><br>
+        <input type="tel" placeholder="010-123-4566"><br>
+        <input type="search" placeholder="검색어"><br>
+        <input type="submit" value="전송"><br>
+    </fieldset>
+    <small>문의: Tel.010-111-2222</small>
+</body>
+ 
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼 태그 속성</title>
+</head>
+<body>
+    <!--
+        [폼 태그 속성] 
+        name : 스크립트나 서버에서 폼을 식별하기 위해 사용하는 폼 이름
+        action : 폼 데이터를 전솔할 URL 지정
+        method : HTTP 요청 메소드(get, post)
+            - get : 데이터를 URL의 일부로 전송
+            - post : 데이터를 본문으로 송신
+        target : 웹 서버 응용프로그램으로부터 전송받은 데이터(HTML 문서나 이미지)를 출력할 윈도우 이름
+    -->
+    <form name="fo"  method="get">
+        아 이 디: <input type="text" size="15"><br>
+        비밀번호: <input type="password" size="15"><br>
+        <input type="submit" value="로 그 인">
+    </form>
+    <!-- 폼 전송과정 -->
+    <form name="sform" action="https://search.naver.com/search.naver" method="get">
+        <input type="text" name="query">
+    <!-- input의 name을 변수라고 설정하고, text로 입력하는 부분은 value라고 설정되면, name = value로 되어서 검색결과가 나오게 된다. -->
+        <input type="submit" value="검색">
+    </form>
+
+</body>
+</html>
