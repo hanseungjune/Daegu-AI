@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVERRIDING</title>
+    <!--
+        오버라이딩(overriding) : 덮어쓰기.
+        동일한 CSS 프로퍼티에 서로 다른 값은 설정하는 충돌 시
+        우선순위가 높은 스타일을 적용하는 규칙
+        [기준]
+        1) 스타일 우선순위(importance, Specificity, order)
+         1> (제일 중요)사용자(클라이언트) 스타일시트 : ex.색맹을 위한 고대비설정을 무시할수는 없음
+         2> !important - 어떤 스타일보다 우선 적용(css에 적으면 바로 적용됨)
+         3> 일반 스타일시트
+         4> 기본 브라우저 스타일 : ex.텍스트는 기본적으로 black 이다.
+        (우선순위)
+            (높음)inline > id > class > tag
+        2) 스타일 상속
+      -->
+      <style>
+          p {
+              background-color: red /*!important*/;
+          }
+
+          .myclass {
+              background-color: gray;
+          }
+
+          #myid {
+              background-color: blue;
+          }
+
+          h2 {
+              color: brown;
+          }
+
+          h2 {
+              color: blueviolet;                /* 똑같은 태그에 똑같은 프로퍼티 적용이라도 제일 최근 작성한게 적용됨 */
+          }
+      </style>
+</head>
+<body>
+    <p>스타일 우선순위</p>
+    <p class="myclass">!important</p>
+    <p id="myid">일반 스타일시트</p>
+    <p class="myclass">우선순위를 작성해보자.</p>
+    <!-- 클래스는 중복사용 가능! -->
+    <!-- <p id="myid">id를 중복사용해보자</p> (id는 중복사용해서는 안된다 class만 가능)-->
+</body>
+</html>
