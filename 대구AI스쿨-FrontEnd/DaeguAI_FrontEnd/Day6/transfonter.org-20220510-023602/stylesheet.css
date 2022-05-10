@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Kirang Haerang';
+    src: url('KirangHaerang-Regular.eot');
+    src: url('KirangHaerang-Regular.eot?#iefix') format('embedded-opentype'),
+        url('KirangHaerang-Regular.woff2') format('woff2'),
+        url('KirangHaerang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

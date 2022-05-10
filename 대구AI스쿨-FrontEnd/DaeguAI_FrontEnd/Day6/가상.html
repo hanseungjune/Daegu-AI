@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 첫번째 글자만 해당하는 색깔 */
+        h3:first-letter{
+           color:red; 
+        }
+        /* 커서를 가져다 놓으면 변하는 색깔 */
+        li:hover{
+            background-color: yellowgreen;
+            /* pointer, help, move, progress */
+            cursor: pointer;
+        }
+        /* 링크 색깔 */
+        a:link{                     
+            
+            color: magenta;
+        }
+        /* 이미 방문한 링크 색깔 */
+        a:visited{
+            color: gray;
+        }
+        /* 클락하는 순간 변하는 색깔 */
+        a:active{
+            color: green;
+        }
+        /* 첫번째 목록 색깔 */
+        li:first-child{
+            color: chartreuse;
+        }
+        /* 마지막 목록 색깔 */
+        li:last-child{
+            color: mediumvioletred;
+        }
+        /* 2번째 목록 색깔 */
+        li:nth-child(2){
+            color: darkcyan;
+        }
+        /* 3번째 목록 색깔 */
+        li:nth-child(3){
+            color:tomato
+        }
+    </style>
+</head>
+<body>
+    <h3>Web Programming</h3>
+    <hr>
+    <div>
+        <div>5월 <strong>학습 내용</strong></div>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li><a href="#">HTML</a></li>
+            <li>CSS</li>
+            <li>JS</li>
+        </ul>
+        <div>월~금 : 10시 ~ 1시</div>
+        <ul>
+            <li>test1</li>
+            <li>test2</li>
+            <li>test3</li>
+            <li>test4</li>
+        </ul>
+
+    </div>
+</body>
+</html>

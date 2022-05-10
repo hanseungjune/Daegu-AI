@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    font-family: 'GmarketSansBold';
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#section1 {
+    width: 100%;
+    height: 100vw;
+    background-color: transparent;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://c.wallhere.com/photos/00/37/rooftopping_shoe_dangle_Vans_Company_shoes_jeans_Jack_Ingle-2079323.jpg!d') no-repeat;
+    background-size: contain;
+}
+
+#header {
+    width: 100%;
+    height: 7vw;
+    position: absolute;
+    margin-top: 0.8vw;
+    background-color: transparent;
+}
+
+#header-div {
+    width: 80%;
+    height: 5vw;
+    position: absolute;
+    margin: 0vw 15vw;
+    left: -6vw;
+    background-color: transparent;
+}
+
+#header-logo {
+    width: 12%;
+    height: 3vw;
+    position: absolute;
+    margin: 0.5vw 2vw;
+    background-color: brown;
+    line-height: 3vw;
+}
+
+#header-logo>a {
+    color: white;
+    font-size: 2vw;
+    position: absolute;
+    top: 0.2vw;
+    left: 0.5vw;
+}
+
+#header-logo>a:hover {
+    color: gold;
+}
+
+#header-nav {
+    width: 70%;
+    height: 5vw;
+    float: right;
+    margin-top: 1vw;
+}
+
+#header-nav>a {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1.3vw;
+    border-right: 1px solid gray;
+}
+
+#header-nav>a:last-child {
+    border-right: none;
+}
+
+#header-nav>a:hover {
+    color: gold;
+}
+
+#jumbotron {
+    position: absolute;
+    width: 75%;
+    height: 35vw;
+    background-color: transparent;
+    top: 8vw;
+    left: 13vw;
+    padding: 10vw;
+    padding-top: 10vw;
+}
+
+#jumbotron h1 {
+    font-size: 3.4vw;
+    text-align: center;
+    color: white;
+    margin-bottom: 2vw;
+}
+
+#jumbotron h2 {
+    font-size: 1.8vw;
+    text-align: center;
+    color: white;
+    margin-bottom: 2vw;
+}
+
+.search_form {
+    position: absolute;
+    left: 14vw;
+    border: 1px solid black;
+}
+
+#google-query {
+    border: 1px solid white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 40vw;
+    height: 2.5vw;
+    font-size: 1.2vw;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 1.0vw;
+}
+
+#google_button {
+    border: 2px solid white;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 6.5vw;
+    height: 2.5vw;
+    position: absolute;
+    font-size: 1.2vw;
+    background-color: rgba(43, 43, 248, 0.664);
+    color: white;
+    right: -5.5vw;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/NanumGangInHanWiRo.css" rel="stylesheet">
+    <style>
+        /* 1. font-family 속성으로 지정 */
+        /* body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-family: '궁서체';
+            
+        } */
+
+        /* 2. web font 지정
+            *.ttf : 용량이 큼
+            *.eot 
+            *.woff
+            *.woff2
+            구글 웹 폰트: https://fonts.google.com/
+            네이버 웹 폰트: https://hangeul.naver.com/font
+            눈누: https://noonnu.cc/
+        */
+
+        @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+        .gfont{
+            font-family: 'Poor Story', cursive;
+        }
+
+        .nfont{
+            font-family: 'NanumGangInHanWiRo';
+        }
+
+        /* 
+            3. @font-face : 가지고 있는 글꼴
+            웹 폰트 변환 사이트:https://transfonter.org/ (항상 사용범위 확인 필요)
+        */
+
+        @font-face {
+            font-family: Kirang Haerang;
+            src: url('./KirangHaerang-Regular.ttf') format('truetype');
+        }
+        .ffont {
+            font-family: Kirang Haerang, cursive;
+        }
+
+        /* 
+            4. 웹 안전 글꼴
+            영어 : https://www.w3schools.com/css/css_font_website.asp
+            한글 웹 안전글꼴
+                - 가변폭: 굴림(Gulim), 돋움(Dotum), 바탕(Batang), 궁서(Gungsuh)
+                - 고정폭: 굴림체(GulimChe), 돋움체(DotumChe), 바탕체(BatangChe), 궁서체(GungsuhChe)
+        */
+
+    </style>
+</head>
+<body>
+    <h3 class="gfont">font 속성 정하기</h3>
+    <p class="nfont">1. font-family 속성으로 지정</p>
+    <p class="ffont">2. font-face 속성으로 지정</p>
+    <p class="ffont">3. 웹 안전글꼴 속성으로 지정</p>
+</body>
+</html>
