@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 300px;
+            padding: 35px;
+            border: 5px dotted #222;
+            margin-bottom: 20px;
+            background-color: skyblue;
+        }
+        .bg1{
+            background-clip: border-box; /* border까지 적용 */
+        }
+        .bg2{
+            background-clip: padding-box; /* border 빼고 padding까지 적용 */
+        }
+        .bg3{
+            background-clip: content-box; /* 내용 부분에만 적용 */
+        }
+    </style>
+</head>
+<body>
+    <div class="bg1">
+        <h1>초콜릿</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias molestias itaque quia sequi error. Voluptatibus quas mollitia sit, sed iure maiores tempora nihil quibusdam a obcaecati labore eligendi, aliquid corporis.
+        </p>
+    </div>
+    <div class="bg2">
+        <h1>초콜릿</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias molestias itaque quia sequi error. Voluptatibus quas mollitia sit, sed iure maiores tempora nihil quibusdam a obcaecati labore eligendi, aliquid corporis.
+        </p>
+    </div>
+    <div class="bg3">
+        <h1>초콜릿</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias molestias itaque quia sequi error. Voluptatibus quas mollitia sit, sed iure maiores tempora nihil quibusdam a obcaecati labore eligendi, aliquid corporis.
+        </p>
+    </div>
+
+</body>
+</html>
