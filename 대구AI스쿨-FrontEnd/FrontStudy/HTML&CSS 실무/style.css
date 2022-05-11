@@ -8,143 +8,358 @@
 * {
     margin: 0 auto;
     padding: 0;
-    text-align: center;
-    text-decoration: none;
-    align-items: center;
     font-family: 'GmarketSansBold';
     box-sizing: border-box;
 }
 
-a {
-    color: white;
-}
-
-html {
+html{
     width: 100%;
-    height: 100%;
+    height: 7170px;
     background-color: black;
 }
 
-#section1 {
+body{
     width: 100%;
-    height: 100vw;
-    background-color: transparent;
+    height: 100vh;
+    background-color: white;
+}
+
+#start{
     position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://c.wallhere.com/photos/00/37/rooftopping_shoe_dangle_Vans_Company_shoes_jeans_Jack_Ingle-2079323.jpg!d') no-repeat;
-    background-size: contain;
+}
+
+#logo_nav {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    border-bottom: 3px solid saddlebrown;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('https://s1.best-wallpaper.net/wallpaper/m/1808/USA-New-York-city-clouds-dusk-lights-buildings_m.webp') no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    background-color: transparent;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 10%;
+    height: 40px;
+}
+
+#logo > a {
+    text-decoration: none;
+    color: white;
+    font-size: 180%;
+}
+
+#logo:hover {
+    border: transparent;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all ease 1s;
+}
+
+#logo:hover > a{
+    color: goldenrod;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px white;
+    transition: all ease 1s;
+}
+
+nav{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 1000px;
+    height: 40px;
+    text-align: right;
+    line-height: 40px;
+    margin-left: 100px;
+    background-color: transparent
+}
+
+nav > a {
+    border-right: 1px solid white;
+    padding-right: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:last-child {
+    border: none;
+}
+
+nav > a:hover {
+    font-size: 1.48vw;
+    color: goldenrod;
+    text-shadow: 2px 2px 4px white;
+    transition: all ease 1s;
+}
+
+#background {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('https://s1.best-wallpaper.net/wallpaper/m/1808/USA-New-York-city-clouds-dusk-lights-buildings_m.webp') no-repeat;
+    background-size: 100% 100%;
+    margin: -0px auto;
+    box-shadow: 0px 10px 10px transparent;
+    z-index: 9;
 }
 
 #header {
-    width: 100%;
-    height: 7vw;
-    position: absolute;
-    margin-top: 0.8vw;
-    background-color: transparent;
-}
-
-#header-div {
-    width: 80%;
-    height: 5vw;
-    position: absolute;
-    margin: 0vw 15vw;
-    left: -6vw;
-    background-color: transparent;
-}
-
-#header-logo {
-    width: 12%;
-    height: 3vw;
-    position: absolute;
-    margin: 0.5vw 2vw;
-    background-color: brown;
-    line-height: 3vw;
-}
-
-#header-logo>a {
-    color: white;
-    font-size: 2vw;
-    position: absolute;
-    top: 0.2vw;
-    left: 0.5vw;
-}
-
-#header-logo>a:hover {
-    color: gold;
-}
-
-#header-nav {
-    width: 70%;
-    height: 5vw;
-    float: right;
-    margin-top: 1vw;
-}
-
-#header-nav>a {
-    padding-left: 2%;
-    padding-right: 2%;
-    font-size: 1.3vw;
-    border-right: 1px solid gray;
-}
-
-#header-nav>a:last-child {
-    border-right: none;
-}
-
-#header-nav>a:hover {
-    color: gold;
-}
-
-#jumbotron {
-    position: absolute;
+    margin-top: 0px;
+    padding-top: 360px;
     width: 75%;
-    height: 35vw;
-    background-color: transparent;
-    top: 8vw;
-    left: 13vw;
-    padding: 10vw;
-    padding-top: 10vw;
-}
-
-#jumbotron h1 {
-    font-size: 3.4vw;
+    height: 500px;
+    border: 1px solid transparent;
     text-align: center;
-    color: white;
-    margin-bottom: 2vw;
+    align-items: center;
 }
 
-#jumbotron h2 {
-    font-size: 1.8vw;
+#main_title {
+    color: white;
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+}
+
+#main_subtitle {
+    color: white;
+    font-size: 1vw;
+    margin-bottom: 40px;
+}
+
+input[type="text"] {
+    width: 800px;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     text-align: center;
+    font-size: 17px;
+}
+
+input[type="submit"] {
+    width: 120px;
+    height: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 18px;
+    background-color: rgb(0, 0, 154);
     color: white;
-    margin-bottom: 2vw;
 }
 
-.search_form {
-    position: absolute;
-    left: 14vw;
-    border: 1px solid black;
-}
-
-#google-query {
+#services {
+    width: 100%;
+    height: 100vh;
     border: 1px solid white;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    width: 40vw;
-    height: 2.5vw;
-    font-size: 1.2vw;
-    font-family: 'Courier New', Courier, monospace;
-    margin-right: 1.0vw;
+    box-shadow: 0px 5px 5px white;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    z-index: 7;
 }
 
-#google_button {
-    border: 2px solid white;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    width: 6.5vw;
-    height: 2.5vw;
+#services_form {
+    border: 1px solid transparent;
+    width: 85%;
+    height: 80%;
+    margin-top: 15vh;
+}
+
+#services_title{
+    border: 1px solid transparent;
+    width: 90%;
+    height: 10%;
+    margin-top: 5vh;
+    text-align: center;
+    line-height: 33px;
+}
+
+#services_title span{
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+#services_title p{
+    margin-top: 15px;
+    font-size: 1
+    vw;
+    font-weight: 500;
+    color: gray;
+    line-height: 20px;
+}
+
+#services_menu {
+    border: 1px solid transparent;
+    width: 97%;
+    height: 72%;
+    margin-top: 50px;
+    display: block;
+}
+
+.services_menu_line{
+    border: 1px solid transparent;
+    width: 98%;
+    height: 50%;
+    margin-top: 0px;
+    display: flex;
+}
+
+.services_items{
+    border: 1px solid transparent;
+    width: 33%;
+    height: 100%;
+    margin-top: 0px;
+}
+
+.services_picture {
+    border: circle 1px solid aquamarine;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 50%;
+    width: 8vw;
+    height: 7vw;
+    margin-top: 5px;
+}
+
+#img1 {
+    background: url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbF3ic2%2FbtrBSHRpoNP%2FcSb9DxUrjJs1IRD6FOBe51%2Fimg.png') no-repeat;
+    background-size: 50% 50%;
+    background-position: 2vw 1.8vw;
+}
+
+#img2 {
+    background: url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbaGQMI%2FbtrBRoE192Q%2FHMW6Qj4LiYnvfOWNDtm7qk%2Fimg.png') no-repeat; 
+    background-size: 50% 50%;
+    background-position: 2vw 1.8vw;
+}
+
+#img3 {
+    background: url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcfPfzu%2FbtrBVBWIwpm%2Fd4AXA3NVgfkE9zj7a7unR1%2Fimg.png') no-repeat; 
+    background-size: 50% 50%;
+    background-position: 2.2vw 1.8vw;
+}
+
+#img4 {
+    background: url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdzVefp%2FbtrBRYTug4p%2FxJbe7kwZyisW6I71QuMr6k%2Fimg.png') no-repeat; 
+    background-size: 50% 50%;
+    background-position: 1.8vw 1.8vw;
+}
+
+#img5 {
+    background: url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FblbakN%2FbtrBSka4c8f%2F4ZKDcL0lSAKPy264KIP4l0%2Fimg.png') no-repeat; 
+    background-size: 50% 50%;
+    background-position: 2vw 1.8vw;
+}
+
+#img6 {
+    background: url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fz8ZLE%2FbtrBT28beOO%2FQRp3VaRPN7i6fDdcfvZuaK%2Fimg.png') no-repeat; 
+    background-size: 50% 50%;
+    background-position: 2vw 1.8vw;
+}
+
+.services_name {
+    border: 1px solid transparent;
+    width: 25%;
+    height: 15%;
+    margin-top: 2px;
+    padding-right: 1px;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(1, 184, 184);
+    text-shadow: 1px 1px 3px black;
+    font-size: 1vw;
+}
+
+.services_content {
+    border: 1px solid transparent;
+    width: 90%;
+    height: 35%;
+    margin-top: 2px;
+}
+
+.services_content p{
+    text-align: center;
+    font-size: 0.8vw;
+    padding-top: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#about {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid skyblue;
+    box-shadow: 0px 5px 5px skyblue;
+    background-color: skyblue;
     position: absolute;
-    font-size: 1.2vw;
-    background-color: rgba(43, 43, 248, 0.664);
-    color: white;
-    right: -5.5vw;
+    top: 200%;
+    z-index: 6;
+}
+
+#features {
+    width: 100%;
+    height: 200vh;
+    border: 1px solid white;
+    box-shadow: 0px 5px 5px white;
+    background-color: white;
+    position: absolute;
+    top: 300%;
+    z-index: 5;
+}
+
+#team {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid lightgray;
+    box-shadow: 0px 5px 5px lightgray;
+    background-color: lightgray;
+    position: absolute;
+    top: 500%;
+    z-index: 4;
+}
+
+#testimonials {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid rgba(0, 0, 106, 0.653);
+    box-shadow: 0px 5px 5px rgba(0, 0, 106, 0.653);
+    background-color: rgba(0, 0, 106, 0.653);
+    position: absolute;
+    top: 600%;
+    z-index: 3;
+}
+
+#subscribe {
+    width: 100%;
+    height: 40vh;
+    border: 1px solid rgb(0, 59, 0);
+    box-shadow: 0px 5px 5px rgb(0, 59, 0);
+    background-color: rgb(0, 59, 0);
+    position: absolute;
+    top: 700%;
+    z-index: 2;
+}
+
+#contact {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid oldlace;
+    box-shadow: 0px 5px 5px  oldlace;
+    background-color:  oldlace;
+    position: absolute;
+    top: 740%;
+    z-index: 1;
+}
+
+#footer {
+    width: 100%;
+    height: 15vh;
+    border: 1px solid rgb(255, 166, 0);
+    box-shadow: 0px 5px 5px  rgb(255, 166, 0);
+    background-color:  rgb(255, 166, 0);
+    position: absolute;
+    top: 840%;
+    z-index: 0;
 }
