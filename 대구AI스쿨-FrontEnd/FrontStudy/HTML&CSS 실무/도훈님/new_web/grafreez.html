@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .sec1 > h2{
+            display: flex;
+            background-image: none;
+        }
+        a:hover{
+            color: red;
+        }
+        h1{
+            font-size: 52px;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        ul li{
+            display: block;
+            float: left;
+            margin: 10px;
+            text-align: right;
+            background-image: none;
+        }
+        .redbt{
+            background-color: red;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+            border: red;
+            margin-left: -8px;
+            height: 36px;
+            width: 105px;
+            font-size: 14px;
+            background-image: none;
+        }
+        .sch{
+            background-color: white;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border: white;
+            color: black;
+            height: 34px;
+            width: 60%;
+            padding: -3px -3px;
+            background-image: none;
+        }
+        header{
+            height: 120px;
+            display: flex;
+            justify-content: space-evenly;
+            background-image: none;
+            top: 0;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .main{
+            margin-left: 25%;
+            margin-right: 25%;
+            line-height: 1.1;
+        }
+        p{
+            text-align: center;
+            margin-top: 0.5px;
+            font-size: 1.1em;
+            margin-bottom: 25px;
+        }
+        .schall{
+            text-align: center;
+        }
+        .sec1{
+            height: 780px;
+            background-image: url(https://p4.wallpaperbetter.com/wallpaper/481/545/249/metal-the-dark-background-texture-wallpaper-preview.jpg);
+            background-size: cover;
+            margin: 0;
+            color: white;
+            text-decoration: none;
+            list-style: none;  
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            transition-duration: 0.4s;
+        }
+        .sec2{
+            margin: 45px 20% 90px 20%;
+        }
+        .sec2 > h2{
+            text-align: center;
+            font-size: 2em;
+            font-weight: 1200;
+            padding-bottom: 10px;
+        }
+        .sec2 > p{
+            font-size: 0.85em;
+            color: rgb(112, 112, 112);
+        }
+        .s1{
+            width: 28%;
+            display: inline-block;
+            margin-right: 2%;
+            margin-left: 2%;
+        }
+        .sec2 .s1{
+            opacity: 0;
+            transition: 0.8s; 
+        }
+        .sec2.active .s1{
+            opacity: 1;
+        }
+        .sec2 .s1:nth-child(3) {transform: translateY(50px);}
+        .sec2 .s1:nth-child(4) {transform: translateY(-50px);}
+        .sec2 .s1:nth-child(5) {transform: translateY(50px);}
+        .sec2 .s1:nth-child(6) {transform: translateY(-50px);}
+        .sec2 .s1:nth-child(7) {transform: translateY(50px);}
+        .sec2 .s1:nth-child(8) {transform: translateY(-50px);}
+        .sec2.active .s1:nth-child(3) {transition-delay: 0.2s; transform: translateY(0px);}
+        .sec2.active .s1:nth-child(4) {transition-delay: 0.2s; transform: translateY(0px);}
+        .sec2.active .s1:nth-child(5) {transition-delay: 0.2s; transform: translateY(0px);}
+        .sec2.active .s1:nth-child(6) {transition-delay: 0.2s; transform: translateY(0px);}
+        .sec2.active .s1:nth-child(7) {transition-delay: 0.2s; transform: translateY(0px);}
+        .sec2.active .s1:nth-child(8) {transition-delay: 0.2s; transform: translateY(0px);}
+        .s1 > h4,p{
+            text-align: center;
+        }
+        .s1 > h4{
+            font-weight: 550;
+            margin-bottom: 13px;
+        }
+        .s1 > p{
+            font-size: 0.8em;
+            color: rgb(112, 112, 112);
+        }
+        .s1 > img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 65px;
+            height: 65px;
+            margin: 10px auto 5px auto;
+        }
+        header.d1{
+            position: sticky; padding: 8px 0; background-color: #fff; box-shadow:0 2px 2px rgba(0, 0, 0, .3); background-image: none; height: 40px;
+        }
+        header.d1 nav ul li a{
+            color: #243a75;
+        }
+        header.d1 nav ul li a:hover{
+            color: red;
+        }
+        header.d1 h2 a{
+            color: #243a75;
+        }
+        header.d1 h2 a:hover{
+            color: red;
+        }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="sec1" id="Graf">
+        <header>
+                <h2><a href="#Graf">Grafreez</a></h2>
+            <nav>
+                <ul>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Testimonals</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="main">
+            <h1>PERFECTION IS NOT ATTAINABLE</h1>
+            <P>BUT IF WE CHASE PERFECTION WE CAN CATCH EXCELLENCE</P>
+            <div class="schall">
+                <input type="text" class="sch" placeholder="    search for">
+                <button class="redbt">Search</button>
+            </div>
+        </div>
+    </div>
+    <div class="sec2" id="Services">
+        <h2>Our Services</h2>
+        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+        <div class="s1">
+            <img src="icon1.png" alt="">
+            <h4>HEADING</h4>
+            <p>
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+            </p>
+        </div>
+        <div class="s1">
+            <img src="icon1.png" alt="">
+            <h4>HEADING</h4>
+            <p>
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+            </p>
+        </div>
+        <div class="s1">
+            <img src="icon1.png" alt="">
+            <h4>HEADING</h4>
+            <p>
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+            </p>
+        </div>
+        <div class="s1">
+            <img src="icon1.png" alt="">
+            <h4>HEADING</h4>
+            <p>
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+            </p>
+        </div>
+        <div class="s1">
+            <img src="icon1.png" alt="">
+            <h4>HEADING</h4>
+            <p>
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+            </p>
+        </div>
+        <div class="s1">
+            <img src="icon1.png" alt="">
+            <h4>HEADING</h4>
+            <p>
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

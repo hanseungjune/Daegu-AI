@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+        }
+
+        .origin{
+            width: 200px;
+            height: 134px;
+            border: 1px solid black;
+            margin: 40px;
+            perspective: 200px; /* 원근감 */
+            margin-left: 40%;
+        }
+
+        /* 이미지 변환의 시작점(기준점) 설정 */
+
+        .bus {
+            transform: rotate(30deg);
+        }
+
+        .ltop .bus{
+            transform-origin: left top;
+        }
+
+        .rtop .bus{
+            transform-origin: right top;
+        }
+
+        .lbottom .bus{
+            transform-origin: left bottom;
+        }
+
+        .rbottom .bus{
+            transform-origin: right bottom;
+        }
+    </style>
+</head>
+<body>
+    <div class="origin">
+        <div class="ltop">
+            <img src="../Day7/images/bus.png" class="bus">
+        </div>
+    </div>
+    <div class="origin">    
+        <div class="rtop">
+            <img src="../Day7/images/bus.png" class="bus">
+        </div>
+    </div>
+    <div class="origin">
+        <div class="lbottom">
+            <img src="../Day7/images/bus.png" class="bus">
+        </div>
+    </div>
+    <div class="origin">
+        <div class="rbottom">
+            <img src="../Day7/images/bus.png" class="bus">
+        </div>
+    </div>
+</body>
+</html>

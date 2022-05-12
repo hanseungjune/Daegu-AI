@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+        }
+
+        .origin {
+            width: 200px;
+            height: 134px;
+            border: 1px solid black;
+            margin: 40px;
+            perspective: 200px;
+            /* 원근감 */
+            margin-left: 40%;
+        }
+
+        /* 이미지 이동 */
+
+        .movex:hover {
+            -webkit-transform: translateX(1200px);
+            /* 크롬, 사파리 */
+            -ms-transform: translateX(1200px);
+            /* 익스플로러 */
+            -moz-transform: translateX(1200px);
+            /* 파이어폭스 */
+            -o-transform: translateX(1200px);
+            /* 오페라 */
+            transform: translateX(1200px);
+            transition: all ease 3s;
+        }
+
+        .movey:hover {
+            transform: translateY(300px);
+            transition: all ease 3s;
+        }
+
+        .movexy:hover {
+            transform: translate(1200px, 200px);
+            transition: all ease 3s;
+        }
+
+        /* 이미지 확대, 축소 */
+
+        .scalex:hover {
+            transform: scaleX(1.5);
+            transition: all ease 3s;
+        }
+
+
+        .scaley:hover {
+            transform: scaley(1.5);
+            transition: all ease 3s;
+        }
+
+
+        .scalexy:hover {
+            transform: scale(2, 2);
+            transition: all ease 3s;
+        }
+
+        /* 기울임 - 각도 */
+
+        .skewx:hover {
+            transform: skewX(40deg);
+        }
+
+        .skewy:hover {
+            transform: skewY(20deg);
+        }
+
+        .skewxy:hover {
+            transform: skew(40deg, -40deg);
+        }
+
+        /* 회전 rotate를 쓸 때, 꼭 perspective(원근감) 설정해야한다. */
+
+        .rot:hover {
+            transform: rotate(-30deg);
+        }
+
+        /* 3차원 */
+
+        .rotx:hover {
+            transform: rotateX(45deg);
+        }
+
+        .roty:hover {
+            transform: rotateY(45deg);
+        }
+
+        .rotz:hover {
+            transform: rotateZ(45deg);
+        }
+
+        .rotxyz:hover {
+            transform: rotate3d(2.5, 1.2, -1.5, 90deg);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="origin"> 
+        <div class="movex">
+            <img src="../Day7/images/bus.png">
+        </div>
+            </div>
+    <div class="origin">
+        <div class="movey">
+            <img src="../Day7/images/bus.png">
+        </div>
+            </div>
+    <div class="origin">
+        <div class="movexy">
+            <img src="../Day7/images/bus.png">
+        </div>
+    </div> -->
+
+    <!-- <div class="origin"> 
+        <div class="scalex">
+            <img src="../Day7/images/bus.png">
+        </div>
+    </div>
+    <div class="origin">
+        <div class="scaley">
+            <img src="../Day7/images/bus.png">
+        </div>
+    </div>
+    <div class="origin">
+        <div class="scalexy">
+            <img src="../Day7/images/bus.png">
+        </div>
+    </div> -->
+
+    <!-- <div class="origin"> 
+        <div class="skewx">
+            <img src="../Day7/images/bus.png">
+        </div>
+    </div>
+    <div class="origin">
+        <div class="skewy">
+            <img src="../Day7/images/bus.png">
+        </div>
+    </div>
+    <div class="origin">
+        <div class="skewxy">
+            <img src="../Day7/images/bus.png">
+        </div>
+    </div>
+    <div class="origin">
+        <div class="rot">
+            <img src="../Day7/images/bus.png">
+        </div>
+    </div> -->
+
+    <div class="origin">
+        <div class="rotx">
+            <img src="../Day7/images/bus.png">
+        </div>
+    </div>
+    <div class="origin">
+        <div class="roty">
+            <img src="../Day7/images/bus.png">
+        </div>
+    </div>
+    <div class="origin">
+        <div class="rotz">
+            <img src="../Day7/images/bus.png">
+        </div>
+    </div>
+    <div class="origin">
+        <div class="rotxyz">
+            <img src="../Day7/images/bus.png">
+        </div>
+    </div>
+</body>
+
+</html>
