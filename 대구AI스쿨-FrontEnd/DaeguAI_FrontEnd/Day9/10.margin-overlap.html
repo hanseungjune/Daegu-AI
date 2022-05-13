@@ -1,0 +1,40 @@
+<!-- 박스 모델 마진 속성 사용 시 주의할 점 
+    요소를 세로로 배치시 마진과 마진이 만나면 마진 값이 큰 쪽으로 겹쳐지는 것 
+    ppt 10p 
+     -> 여러 요소를 세로로 배치할 때 마진이 너무 커지는 것을 방지하기 위한 것
+    위, 아래 마진은 큰 값으로 합쳐지고 
+    오른쪽 왼쪽 마진은 만나도 중첩되지 않는다 -->
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>박스모델</title>
+	<style>
+    * {
+      box-sizing:border-box;
+    }
+		div {
+			width:200px;  /* 너비 */
+			height:100px;  /* 높이 */
+  		    margin:30px;  /* 마진 */
+		}
+    #box1 {
+      background:rgb(0, 77, 243);
+      border: 1px solid black;
+    }
+    #box2 {
+      background:rgb(255, 72, 0);
+      border: 1px solid black;
+    }
+    #box3 {
+      background:rgb(18, 219, 0);
+      border: 1px solid black;
+    }
+	</style>
+</head>
+<body>
+	<div id="box1"></div>
+	<div id="box2"></div>
+	<div id="box3"></div>
+</body>
+</html>

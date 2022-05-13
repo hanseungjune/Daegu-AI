@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {margin:20px; border:1px solid #ccc;
+            border-radius: 5px;}
+        img {width:300px;}
+        .visible {
+            visibility:visible;
+        }
+        .none{
+            display: none;
+        }
+        .hidden{
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <img class="visible" src="./실습/de1.jpg">
+    <img class="none" src="./실습/de2.jpg">
+    <img class="visible" src="./실습/de3.jpg">
+</div>   
+<div>
+    <img class="visible" src="./실습/de1.jpg">
+    <img class="hidden" src="./실습/de2.jpg">
+    <img class="visible" src="./실습/de3.jpg">
+</div>    
+</body>
+</html>

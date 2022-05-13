@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>박스모델</title>
+	<style>
+		div {
+			width:200px;
+			height:100px;
+			display:inline-block;
+			margin:15px;			
+			border-width:10px;  /* 2. 테두리 굵기 : 사방 같은 값, 다른 값, 키워드(thin, medium, thick) */
+            border-top-color:aquamarine; /* 3. 색깔: 사방 같은 값(border-color), 다른 값(top, right, bottom, left ),*/
+            /* 4. 속성 묶어 표현 가능, 순서 상관 없음 */
+		}
+       
+/* 1. 선 형태 */        
+		.box1 {border-style: solid;}  /* 실선 */
+		.box2 {border-style: dotted;}  /* 점선 */
+		.box3 {border-style: dashed;}  /* 선으로 된 점선 */
+        .box4 {border-style: double;}
+        .box5 {border-style: groove;}
+        .box6 {border-style: inset;}
+        .box7 {border-style: outset;}
+        .box8 {border-style: ridge;}
+	</style>
+</head>
+<body>
+	<div class="box1">solid</div>
+	<div class="box2">dotted</div>
+	<div class="box3">dashed</div>
+	<div class="box4">double</div>
+	<div class="box5">groove</div>
+	<div class="box6">inset</div>
+	<div class="box7">outset</div>
+	<div class="box8">ridge</div>
+</body>
+</html>

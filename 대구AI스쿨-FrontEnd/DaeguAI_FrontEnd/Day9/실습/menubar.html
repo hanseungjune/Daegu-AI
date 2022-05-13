@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>리스트로 메뉴 만들기</title>
+<style>
+#menubar {
+	background-color: olive;  /* 배경 색을 olive로 지정 */
+	border: 1px solid black;
+	width: 480px;
+}
+#menubar ul { /* 여백과 패딩 모두 0 */
+	margin : 0;
+	padding : 0;
+	width : 480px; /* 모든 아이템(<li>)을 한 줄에 품을 수 있는 폭 */
+	border: 1px solid red;
+}
+#menubar ul li {
+	display : inline-block; /* 새 줄로 넘어가지 않게 */
+	list-style-type: none;  /* 목록 앞의 점 표시되지 않도록 처리  */
+	padding : 0px 15px; /* top=bottom=0, left=right=15px */ 
+}
+#menubar ul li a {
+	color: white; 
+	text-decoration: none;  /* 글자 색은 white, 링크 시 밑줄 보이지 않도록 처리  */
+}
+#menubar ul li a:hover {  
+ 	color: violet;  /* 마우스 올라 갈 때 색을 violet으로 지정 */
+}
+</style>
+</head>
+<body>
+<nav id="menubar">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Espresso</a></li>
+		<li><a href="#">Cappuccino</a></li>
+		<li><a href="#">Cafe Latte</a></li>
+		<li><a href="#">F.A.Q</a></li>
+	</ul>
+</nav>
+</body>
+</html>

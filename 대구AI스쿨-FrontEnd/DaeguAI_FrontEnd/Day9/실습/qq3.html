@@ -1,0 +1,88 @@
+<!-- 다음 빈칸을 채우세요.
+    1) transition으로 transform 0.2초동안 적용하기 , animation-timing-function은 ease-in-out 적용
+    2) transform 중 위(y축 방향)으로 이미지를 이동시키기 : -200px 
+    3) 디저트 상품명과 설명이 있는 h2, p 태그에 글자색 #fff, 텍스트 가운데 정렬 적용하기 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .prod-list {
+      list-style:none;
+      margin:0;
+      padding:0;
+     }
+     .prod-list li {
+        position: relative;
+        float: left;
+        padding: 0;
+        margin: 10px;
+        overflow: hidden;
+      }
+    .prod-list img {
+      width: 300px; height: 200px;
+      margin:0;
+      padding:0;
+      float:left;
+      z-index:5;
+    } 
+  
+    .prod-list .caption {
+      position: absolute;
+      top:200px;
+      width:300px;
+      height:200px;
+      padding-top:20px;
+      background:rgba(0,0,0,0.6);
+      opacity:0;
+      transition: transform 0.3s ease-in-out;
+      z-index:10;
+    }
+
+    li:hover .caption {
+        cursor: pointer;
+        opacity: 1;
+        transform: translateY(-200px);
+}     
+    .caption h2,  .caption p {
+      color: #fff;
+      text-align: center;
+    }  
+
+    </style>
+</head>
+<body>
+ <h1>디저트 선택</h1>
+ <div id="container">
+     <ul class="prod-list">
+         <li>
+             <img src="de1.jpg">
+             <div class="caption">
+                 <h2>상품명: 케이크</h2>
+                 <p>맛있는 과일 케이크</p>
+                 <p>가격: 7,500원</p>
+             </div>
+         </li>
+         <li>
+             <img src="de2.jpg">
+             <div class="caption">
+                 <h2>상품명: 아이스크림</h2>
+                 <p>맛있는 아이스크림</p>
+                 <p>가격: 7,500원</p>
+             </div>
+         </li>
+         <li>
+             <img src="de3.jpg">
+             <div class="caption">
+                 <h2>상품명: 파운드 케이크</h2>
+                 <p>맛있는 파운드 케이크</p>
+                 <p>가격: 7,500원</p>
+             </div>
+         </li>
+     </ul>
+ </div>   
+</body>
+</html>
