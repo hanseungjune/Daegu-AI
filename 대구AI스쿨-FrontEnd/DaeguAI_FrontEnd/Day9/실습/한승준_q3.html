@@ -10,44 +10,51 @@
        1) width를 80%로 정하고 
        2) 항상 화면 가운데 배치하기
        3) 배경색을 #5F7161으로 지정 */
-    header{  ______________
-        ______________
-        ______________
+    header{  
+        width: 80%;
+        height: 70px;
+        margin: 0 auto;
+        background-color: #5F7161;
     }
     /* 2. header의 h1
         1) width를 38%로 정하고
         2) 글자색을 #D0C9C0으로 지정*/
     header h1{
-        ______________
-	    ______________
+        width: 38%;
+	    color: #D0C9C0;
+        margin-left: 50px;
+        padding: 15px;
     }
     /* 3. nav ul의 불릿 없애기 */
-    nav ul{
-        ______________
+    nav > ul{
+        list-style-type: none;
+        float: right;
+        margin-top: -60px;
+        margin-right: 50px;
     }
     /* 4. nav li
         0) 적당한 선택자 지정
         1) display 속성을 inline으로 지정
         2) margin을 15px 지정*/
-        ______________{
-        	______________
-            ______________
+        nav li{
+        	display: inline;
+            margin: 15px;
         }   
 
     /* 5. nav a
         0) 적당한 선택자 지정
         1) 글자색을 #D0C9C0으로 지정
         2) 텍스트 밑줄 표시 없애기 */
-        ______________{
-            ______________
-            ______________
+        nav a{
+            color: #D0C9C0;
+            text-decoration: none;
     }
     /*6. p 태그
         1) 폰트 크기: 15px 지정
         2) 줄 간격: 20px 지정*/
         p {
-            ______________
-            ______________
+            font-size: 15px;
+            line-height: 20px;
         }
     /* 7. section 태그 
        1) width를 80%로 정하고 
@@ -55,19 +62,17 @@
        3) border: 5px 두께, 실선, 색은 #5F7161 지정
        4) 패딩: 5px로 지정 */
        section{
-	    ______________
-        ______________
-        ______________
-        ______________
+	    width: 80%;
+        margin: 0 auto;
+        border: 5px solid #5F7161;
+        padding: 5px;
        }
     /* 8. article h2
        1) 백그라운드 이미지 크기를 25px로 지정
        2) 백그라운드 이미지 반복을 no-repeat으로 지정
        3) 백그라운드 이미지 위치를 left center로 지정 */
        article h2{
-        ______________
-        ______________
-        ______________
+        font-size: 25px;
     }  
     /* 9. footer 
        0) 적당한 선택자를 지정하고 
@@ -76,12 +81,14 @@
        3) 배경색을 #2d362e로 지정
        4) 글자색은 #D0C9C0로 지정하고
        5) 글자는 가운데 정렬한다. */
-       ______________{
-        ______________
-        ______________
-        ______________
-        ______________
-        ______________
+       footer{
+        width: 80%;
+        height: 60px;
+        padding-top: 10px;
+        margin: 0 auto;
+        background-color: #2d362e;
+        color: #D0C9C0;
+        text-align: center;
 }
 
     /* 10. planet1, planet2, planet3, planet4
@@ -94,26 +101,39 @@
             테두리 타원 형태로 둥글게 하기(위-오른쪽 : 100px 50px, 아래-왼쪽:100px 50px )
 
     */
-    ______________{
-        ______________
-        ______________}
+    #planet1{
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 20px 80px;
+        margin: 20px;
+    }
 
-    
-    ______________{
-    ______________
-    ______________}
+    #planet2{
+        border: 1px dotted blue;
+        border-radius: 20px;
+        padding: 20px 80px;
+        margin: 20px;
+    }
 
-    ______________{
-        ______________
-        ______________
-        ______________}
+    #planet3{
+        border: 2px double green;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        padding: 20px 80px;
+        margin: 20px;
+    }
 
-    
-    ______________{
-    ______________
-        ______________
-    ______________}
+    #planet4{
+        border: 2px dashed brown;
+        border-radius: 100px 50px;
+        padding: 20px 80px;
+        margin: 20px;
+    }
 
+    aside {
+        padding: 0px 0px;
+        margin: 20px;
+    }
 
 </style>
 </head>
