@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- 주석 단축키: ctrl + / -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fixed</title>
+    <style>
+        .box1{
+            width:300px;
+            height:300px;
+            background-color: palegreen;
+        }
+        .parent-fixed{
+            width: 300px;
+            /* height:300px; */
+            /* 3) 영향 없음, 부모만 사라지고 자식은 남아있음 */
+            background-color: antiquewhite;
+        }
+        .child-fixed{
+            position:fixed; 
+            width: 100px;
+            height:100px;
+            background-color: blueviolet;
+            /* margin-top: 100px; */
+            /* 1) 발생 안함 */
+            /* top:100px; */
+            /* 2) 사용 가능  */
+        }
+        .box2{
+            width:300px;
+            height:500px;
+            background-color: plum;
+        }
+    </style>
+</head>
+<!-- position: fixed
+    - 스크롤 따라서 화면에 고정된 것처럼 내려옴.
+    - 3차원 속성
+    [3가지 체크사항]
+    1) 부모 자식 간 마진 병합? (발생하기 않음, 혼자만 적용)
+    2) top, right, bottom, left 속성 사용 가능? (사용 가능)
+    3) 자식 높이가 부모 높이에 영향? (영향 없음, 부모만 없어짐)
+-->
+<body>
+<div class="box1"></div>   
+
+<div class="parent-fixed">
+    <div class="child-fixed"></div>
+</div> 
+
+<div class="box2"></div>   
+</body>
+</html>

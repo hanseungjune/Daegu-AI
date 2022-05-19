@@ -1,0 +1,145 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+#shop-body{
+    background-color: #e9ecef;
+}
+
+.shop-container{
+    width:1300px;
+    margin:0 auto;
+}
+/* 상단  gnb 영역  */
+#shop-header #shop-header-gnb{
+    width: 100%;
+    height:36px;
+    background-color: #03c75a;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+#shop-header #shop-header-middle{
+    width:100%;
+    height:66px;    
+    background-color: #03c75a;
+}
+#shop-header nav{
+    width:100%;
+    border-top:solid 1px #e8e8e8;
+    border-bottom: solid 1px #e8e8e8;
+    background-color: #fff;;
+}
+/* nav 메뉴를 가로로 정렬 */
+#shop-header nav ul{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    padding: 13px 0 8px 0;
+}
+#shop-header nav ul li{
+    margin-right: 16px;
+}
+
+/* list-item box 생성 */
+#shop-main .list-item{
+    width:308px;
+    height:496px;
+    /* background-color:#03c75a; */
+    margin-bottom:20px;
+    position:relative; /* 3번째 박스 absolute 배치를 위해 저정 */
+}
+/* list-item 정렬 */
+#shop-main .list-wrap{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+/* 카테고리의 테두리 만들기 */
+.shop-border{
+    border: solid 1px #ced2d7;
+}
+/******* 첫 번째 박스 : 왼쪽 *******/
+/* 첫 번째 박스 정렬 : float */
+#shop-main .list-item .category-wrap{
+    overflow: hidden;
+}
+#shop-main .list-item .category-wrap .category-left{
+    width:122px;
+    height: 493px;
+    float:left;
+    border: 1px solid #333949;
+    background-color: #333949;
+}
+/* category-left : 글씨 */
+#shop-main .list-item .category-wrap .category-left h3{
+    color:rgba(255, 255, 255, 0.46);
+    padding: 14px 0 14px 13px;
+    border-bottom: 1px solid #2b313f;
+    font-size: 13px;
+}
+#shop-main .list-item .category-wrap .category-left a{
+    display: block;  
+    /*영역에서도 링크사용*/
+    color:rgba(255, 255, 255, 0.46);
+    font-size: 13px;
+    padding: 7px 8px;
+    font-weight: 700; 
+    /* 100 ~ 900*/
+}
+/******* 첫 번째 박스 : 오른쪽 *******/
+#shop-main .list-item .category-wrap .category-right{
+    width:182px;
+    height:100%;
+    float:right;
+    background-color: #fff;
+}
+/* 오른쪽 - 위 박스*/
+#shop-main .list-item .category-wrap .category-right .category-right-top{
+    width:100%;
+    height:306px;
+    border-bottom: solid 1px #e7e7e7;
+}
+/* 오른쪽 - 위 박스 text 영역 */
+#shop-main .list-item .category-right-top .category-info,
+#shop-main .list-item .category-right-bottom{
+    padding:20px 0;
+    text-align: center;
+}
+#shop-main .list-item .category-right-top .category-info h3{
+    font-size:16px;
+}
+#shop-main .list-item .category-right-top .category-info .price{
+    font-size:15px;
+    color:skyblue;
+}
+#shop-main .list-item .category-right-top .category-info .headline,
+#shop-main .list-item .category-right-bottom .headline{
+    font-size: 12px;
+    border:solid 1px #00ab33;
+    color: #00ab33;
+    display:inline-block; 
+    /*속성변경: sapn은 inline 속성이라 margin, height, width 못가짐*/
+    margin-bottom: 7px;
+}
+/* 오른쪽 - 위 박스 image 영역 */
+#shop-main .list-item .category-right-top .image-wrap{
+    text-align: center;
+}
+
+/* 오른쪽 - 아래 박스 */
+#shop-main .list-item .category-right-bottom .tag{
+    background-color: #e8eef4;
+    color:#666;
+    font-size: 12px;
+    display: inline-block;
+    padding: 0 5px;
+    margin: 6px 1px 0 1px;
+    width: auto;
+    max-width: 110px;
+    height: 24px;
+    line-height: 26px;
+    vertical-align: top;
+}

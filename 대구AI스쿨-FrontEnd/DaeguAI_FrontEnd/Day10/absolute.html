@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- 주석 단축키: ctrl + / -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absolute</title>
+    <style>
+        .box1{
+            width:300px;
+            height:300px;
+            background-color: palegreen;
+        }
+        .parent-absolute{
+            width: 300px;
+            height:300px;   
+            /*3) */
+            background-color: antiquewhite;
+            position: relative;
+            /* 좌표(top) 사용 시 이동 기준을 브라우저에서 해당 클래스에서 바꾸고 싶을 때,
+                부모요소에 position:relative 로 기준을 걸어놓고 자식 클래스가 position:absolute
+                설정해서 위치를 잡는다. */
+        }
+        .child-absolute{
+            position:absolute; 
+            width: 100px;
+            height:100px;
+            background-color: blueviolet;
+            /* margin-top: 100px; */
+            /* 1) */
+            top:100px;
+            /* 2)  */
+        }
+    </style>
+</head>
+<!-- position: absolute
+    - 보통 relative 기준으로 사용할때 씀
+    - 단독으로 사용할때는 브라우저 기준으로 사용
+    
+    [3가지 체크사항]
+    1) 부모 자식 간 마진 병합? (혼자만 움직임 - 병합 없음)
+    2) top, right, bottom, left 속성 사용 가능? (브라우저 기준 - 사용 가능)
+    3) 자식 높이가 부모 높이에 영향? ( 영향 없이 그냥 사라짐 )
+-->
+<body>
+<div class="box1"></div>   
+
+<div class="parent-absolute">
+    <div class="child-absolute"></div>
+</div> 
+
+</body>
+</html>
