@@ -1,9 +1,35 @@
-# 대구 AI 스쿨
+![header](https://capsule-render.vercel.app/api?type=cylinder&color=gradient&height=120&section=header&text=Welcome%20to%20Daegu-AI%20School&render&fontSize=45&animation=scaleIn)
 
-> 대구 에이아이 스쿨에서 연습하고있습니다.
+# FrontEnd Course Schedule
 
-## 서류 합격률을 높이는 깃헙 관리 전략
+## Day1
 
-### 리드미 잘 작성하기
+![Day1](https://user-images.githubusercontent.com/92035406/169356786-07bd308f-671e-49ba-8cf6-f9dcc22e7490.gif)
 
-### 커밋 잘 만들기
+## Day2~3
+
+
+
+## Day4
+
+## Day5
+
+## Day6
+
+## Day7
+
+## Day8
+
+## Day9
+
+## Day10
+
+## Day11
+
+## Day12
+
+
+
+# FrontEnd Study Schedule
+
+![Footer](https://capsule-render.vercel.app/api?type=transparent&color=gradient&height=100&section=footer&text=The%20End&animation=fadeIn&fontSize=30)
