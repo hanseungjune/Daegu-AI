@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none
+        }
+
+        a {
+            text-decoration: none
+        }
+
+        header {
+            width: 100%;
+            height: 50px;
+            background-color: skyblue;
+        }
+
+        .container {
+            width: 1200px;
+            height: 50px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .nav {
+            float: left;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .nav>li {
+            float: left;
+            width: 25%;
+            box-sizing: border-box;
+        }
+
+        .nav>li>a {
+            display: block;
+            width: 100%;
+            text-align: center;
+            line-height: 3.4;
+            color: #fcfcfc;
+            font-size: 15px;
+        }
+
+        .nav>li>a:hover {
+            background-color: #3DB7CC;
+        }
+
+        .sub {
+            width: 300px;
+            margin: 0 auto;
+            position: absolute;
+            top: 50px;
+            left: 0;
+            z-index: 1;
+            display: none;
+        }
+
+        .sub2 {
+            left: 300px;
+        }
+
+        .sub3 {
+            left: 600px;
+        }
+
+        .sub4 {
+            left: 900px;
+        }
+
+        .sub>li {
+            width: 300px;
+            height: 50px;
+            border-bottom: 1px solid #000;
+            color: #fff;
+            background-color: #FFD8D8;
+            box-sizing: border-box;
+        }
+
+        .sub>li:last-child {
+            border: 0;
+        }
+
+        .sub>li>a:hover {
+            background-color: #FFA7A7;
+            color: #fff;
+        }
+
+        .sub>li>a {
+            display: block;
+            width: 100%;
+            text-align: center;
+            line-height: 3.4;
+            font-size: 15px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <ul class="nav">
+                <li><a href="">메뉴1</a>
+                    <ul class="sub sub1">
+                        <li><a href="#">메뉴1-1</a></li>
+                        <li><a href="#">메뉴1-2</a></li>
+                        <li><a href="#">메뉴1-3</a></li>
+                    </ul>
+                </li>
+                <li><a href="">메뉴2</a>
+                    <ul class="sub sub2">
+                        <li><a href="#">메뉴2-1</a></li>
+                        <li><a href="#">메뉴2-2</a></li>
+                        <li><a href="#">메뉴2-3</a></li>
+                    </ul>
+                </li>
+                <li><a href="">메뉴3</a>
+                    <ul class="sub sub3">
+                        <li><a href="#">메뉴3-1</a></li>
+                        <li><a href="#">메뉴3-2</a></li>
+                        <li><a href="#">메뉴3-3</a></li>
+                    </ul>
+                </li>
+                <li><a href="">메뉴4</a>
+                    <ul class="sub sub4">
+                        <li><a href="#">메뉴4-1</a></li>
+                        <li><a href="#">메뉴4-2</a></li>
+                        <li><a href="#">메뉴4-3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+$(".nav li").hover(function() {
+$(this).children("ul").stop().slideToggle(500)
+})
+    </script>
+</body>
+</html>
