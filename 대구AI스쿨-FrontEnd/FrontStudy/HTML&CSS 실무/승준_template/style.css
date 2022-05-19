@@ -1,0 +1,863 @@
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Open Sans','Helvetica Neue', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 640vh;
+    background-color: transparent;
+    top: 0;
+}
+
+body{
+    width: 100%;
+    height: 640vh;
+    background-color: white;
+    top: 0;
+}
+
+#start{
+    position: relative;
+}
+
+#logo_nav {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    border-bottom: 3px solid saddlebrown;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('https://s1.best-wallpaper.net/wallpaper/m/1808/USA-New-York-city-clouds-dusk-lights-buildings_m.webp') no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    background-color: transparent;
+    padding: 2%;
+    margin-bottom: 2%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 10%;
+    height: 40px;
+}
+
+#logo > a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.3vw;
+    font-weight: bold;
+}
+
+#logo:hover {
+    border: transparent;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all ease 1s;
+}
+
+#logo:hover > a{
+    color: goldenrod;
+    font-size: 2.5vw;
+    text-shadow: 2px 2px 4px white;
+    transition: all ease 1s;
+}
+
+nav > ul{
+    border-radius: 5px;
+    width: 800px;
+    height: 20px;
+    text-align: right;
+    line-height: 40px;
+    margin-left: 300px;
+    background-color: transparent;
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav a {
+    padding-right: 20px;
+    padding-left: 10px;
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans','Helvetica Neue', Arial, sans-serif;
+}
+
+nav > ul > li > a:last-child {
+    border-right: none;
+}
+
+nav a:hover {
+    font-size: 1.48vw;
+    color: goldenrod;
+    text-shadow: 2px 2px 4px white;
+    transition: all ease 1s;
+}
+
+#background {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('https://s1.best-wallpaper.net/wallpaper/m/1808/USA-New-York-city-clouds-dusk-lights-buildings_m.webp') no-repeat;
+    background-size: 100% 100%;
+    margin: -0px auto;
+    box-shadow: 0px 10px 10px transparent;
+    z-index: 9;
+}
+
+#header {
+    margin-top: 2%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 75%;
+    height: 100%;
+    border: 1px solid transparent;
+    text-align: center;
+    align-items: center;
+}
+
+#main_title {
+    color: white;
+    font-size: 2.5vw;
+    margin-bottom: 2%;
+}
+
+#main_title > h1 {
+    font-weight: bolder;
+}
+
+#main_subtitle {
+    color: white;
+    font-size: 1.3vw;
+    margin-bottom: 4%;
+}
+
+#main_subtitle > h2 {
+    font-weight: bolder;
+}
+
+input[type="text"] {
+    width: 60%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    font-size: 1vw;
+    padding: 1% 0%;
+}
+
+input[type="submit"] {
+    width: 10%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 1vw;
+    font-weight: bold;
+    background-color: rgb(0, 0, 154);
+    color: white;
+    padding: 1% 0px;
+}
+
+#services {
+    width: 100%;
+    height: 110vh;
+    border: 1px solid transparent;
+    /* box-shadow: 0px 5px 5px white; */
+    background-color: transparent;
+    position: absolute;
+    top: 100%;
+    z-index: 7;
+}
+
+#services_form {
+    border: 1px solid transparent;
+    width: 85%;
+    height: 80%;
+    margin-top: 10vh;
+}
+
+#services_title{
+    border: 1px solid transparent;
+    width: 90%;
+    height: 10%;
+    margin-top: 5vh;
+    text-align: center;
+    line-height: 33px;
+}
+
+#services_title span{
+    font-size: 3vw;
+    font-weight: 900;
+    color: rgba(77, 120, 195, 0.671);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+}
+
+#services_title p{
+    margin-top: 15px;
+    font-size: 1vw;
+    font-weight: 500;
+    color: gray;
+    line-height: 30px;
+}
+
+#services_menu {
+    border: 1px solid transparent;
+    width: 97%;
+    height: 72%;
+    margin-top: 80px;
+    display: block;
+}
+
+.services_menu_line{
+    border: 1px solid transparent;
+    width: 98%;
+    height: 50%;
+    margin-top: 0px;
+    display: flex;
+}
+
+.services_items{
+    border: 1px solid transparent;
+    width: 33%;
+    height: 100%;
+    margin-top: 0px;
+}
+
+.services_picture {
+    border: 1px solid rgba(77, 120, 195, 0.671);
+    box-shadow: 1px 1px 5px black;
+    width: 8vw;
+    height: 7vw;
+    margin-top: 5px;
+    padding: 30px auto;
+    background-color: rgba(77, 120, 195, 0.21);
+}
+
+.services_picture  i {
+    color: white;
+    font-size: 10px;
+}
+
+.services_name {
+    border: 1px solid transparent;
+    width: 25%;
+    height: 15%;
+    margin-top: 2px;
+    padding-right: 1px;
+    text-align: center;
+    line-height: 40px;
+    color: rgba(77, 120, 195, 0.671);
+    
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.336);
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.services_content {
+    border: 1px solid transparent;
+    width: 90%;
+    height: 35%;
+    margin-top: 2px;
+}
+
+.services_content p{
+    text-align: center;
+    font-size: 0.8vw;
+    padding-top: 0%;
+    font-family: 'Open Sans','Helvetica Neue', Arial, sans-serif;
+    color: rgb(123, 123, 123);
+}
+
+#about {
+    width: 100%;
+    height: 35vw;
+    border: 1px solid transparent;
+    box-shadow: 0px 5px 5px transparent;
+    background-color: rgba(77, 120, 195, 0.671);
+    position: absolute;
+    top: 210%;
+    z-index: 6;
+}
+
+#about_form {
+    width: 60%;
+    height: 80%;
+    border: 1px solid transparent;
+    margin: 4% auto 10% auto; 
+}
+
+#about_content {
+    width: 60%;
+    height: 100%;
+    border: 1px solid transparent;
+    float: left;
+}
+
+#about_title {
+    width: 90%;
+    height: 15%;
+    border: 1px solid transparent;
+    margin-top: 5%;
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#about_detail {
+    width: 90%;
+    height: 65%;
+    border: 1px solid transparent;
+    margin-top: 8%;
+}
+
+#about_detail > p {
+    font-size: 0.8vw;
+    line-height: 2.2vh;
+    color: white;
+    text-shadow: 2px 2px 2px black
+}
+
+#about_items {
+    float: left;
+    width: 40%;
+    height: 100%;
+    border: 1px solid transparent;
+}
+
+.about_items_line {
+    width: 100%;
+    height: 50%;
+    border: 1px solid transparent;
+}
+
+.about_items_form {
+    width: 50%;
+    height: 100%;
+    border: 1px solid transparent;
+    float: left;
+}
+
+.about_picture {
+    width: 90%;
+    height: 60%;
+    border: 1px solid transparent;
+}
+
+.about_picture_detail {
+    width: 90%;
+    height: 40%;
+    border: 1px solid transparent;
+}
+
+.about_picture > i {
+    font-size: 7vw;
+    padding-top: 8%;
+    padding-left: 15%;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.about_picture_detail > p {
+    font-size: 0.8vw;
+    color: white;
+    text-align: left;
+    padding-top: 18px;
+    padding-left: 0px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#features {
+    width: 100%;
+    height: 70vw;
+    padding-top: 8%;
+    border: 1px solid transparent;
+    box-shadow: 0px 5px 5px transparent;
+    background-color: white(77, 120, 195, 0.671);
+    position: absolute;
+    top: 272%;
+    z-index: 5;
+}
+
+#features_form {
+    width: 55%;
+    height: 95%;
+    border: 10px outset rgba(77, 120, 195, 0.671);
+    margin-top: 3%;
+    padding-bottom: 4%;
+}
+
+#features_title {
+    width: 100%;
+    height: 13%;
+    border: 1px solid transparent;
+    text-align: center;
+    font-size: 1.3vw;
+    line-height: 180%;
+    padding-top: 2%;
+}
+
+.features_content {
+    width: 100%;
+    height: 30%;
+    border: 1px solid transparent;
+}
+
+.features_pictures {
+    width: 50%;
+    height: 100%;
+    border: 1px solid transparent;
+    border-radius: 30%;
+    float: left;
+}
+
+.features_pictures2 {
+    width: 50%;
+    height: 100%;
+    border: 1px solid transparent;
+    border-radius: 30%;
+    float: right;
+}
+
+.features_details {
+    width: 50%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.071);
+    float: right;
+    padding: 4%;
+    padding-top: 8%;
+    padding-right: 7%;
+}
+
+.features_details2 {
+    width: 50%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.071);
+    float: left;
+    padding: 4%;
+    padding-top: 8%;
+}
+
+.features_pictures > img {
+    width: 80%;
+    height: 100%;
+    border-radius: 30% 45%;
+    margin-left: 10%;
+}
+
+.features_pictures2 > img {
+    width: 90%;
+    height: 100%;
+    border-radius: 30% 45%;
+    float: right;
+    margin-right: 10%;
+}
+
+.features_details > h2 {
+    font-size: 1.5vw;
+    line-height: 150%;
+}
+
+.features_details2 > h2 {
+    font-size: 1.5vw;
+    line-height: 150%;
+}
+
+.features_details > p {
+    font-size: 0.8vw;
+    text-align: left;
+}
+
+.features_details2 > p {
+    font-size: 0.8vw;
+    text-align: left;
+}
+
+.features_details > a {
+    text-decoration: none;
+    color: navy;
+    font-size: 1vw;
+}
+
+.features_details2 > a {
+    text-decoration: none;
+    color: navy;
+    font-size: 1vw;
+}
+
+#team {
+    width: 100%;
+    height: 40vw;
+    border: 1px solid transparent;
+    box-shadow: 0px 5px 5px transparent;
+    background-color: rgb(235, 235, 235);
+    position: absolute;
+    top: 428%;
+    z-index: 4;
+}
+
+#team_form {
+    width: 80%;
+    height: 90%;
+    border: 1px solid transparent;
+    margin-top: 2%;
+}
+
+#team_title {
+    width: 40%;
+    height: 20%;
+    border: 1px solid transparent;
+    margin-top: 3%;
+    text-align: center;
+    padding-top: 1.5%;
+    line-height: 4vh;
+}
+
+#team_title > h2 {
+    font-size: 2vw;
+    color: navy;
+}
+
+#team_title > p {
+    font-size: 0.9vw;
+    color: gray;
+}
+
+#team_content {
+    width: 80%;
+    height: 70%;
+    border: 1px solid transparent;
+}
+
+.team_member {
+    width: 25%;
+    height: 100%;
+    border: 1px solid transparent;
+    float: left;
+}
+
+.team_member_images {
+    width: 100%;
+    height: 70%;
+    border: 1px solid transparent;
+}
+
+.team_member_images > img {
+    width: 90%;
+    height: 100%;
+    border-radius: 25px;
+    margin-left: 5%;
+}
+
+.team_member_images > img:hover {
+    opacity: 0.5;
+}
+
+.team_member_details {
+    width: 100%;
+    height: 30%;
+    border: 1px solid transparent;
+}
+
+.team_member_name {
+    width: 100%;
+    height: 50%;
+    border: 1px solid transparent;
+}
+
+.team_member_name > h2 {
+    text-align: center;
+    padding-top: 5%;
+    color: gray;
+}
+
+.team_member_icons {
+    width: 100%;
+    height: 50%;
+    border: 1px solid transparent;
+    padding-top: 1%;
+}
+
+.team_member_icons > i {
+    width: 20%;
+    font-size: 2.8vw;
+    margin-left: 9%;
+}
+
+.team_member_icons > i:hover {
+    color: red;
+}
+
+#testimonials {
+    width: 100%;
+    height: 80%;
+    border: 1px solid transparent;
+    box-shadow: 0px 5px 5px transparent;
+    background-color: rgba(77, 120, 195, 0.671);
+    position: absolute;
+    top: 509%;
+    z-index: 3;
+}
+
+#testimonials_form {
+    width: 80%;
+    height: 90%;
+    border: 1px solid transparent;
+    margin-top: 0%;
+}
+
+#testimonials_title {
+    width: 50%;
+    height: 20%;
+    border: 1px solid transparent;
+    margin-top: 3%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+#testimonials_title > h2 {
+    font-size: 2.6vw;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#testimonials_contents {
+    width: 70%;
+    height: 65%;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+#testimonials_contents > img {
+    width: 30vw;
+    transition: all ease-in-out 0.2s;
+}
+
+#testimonials_contents > img:hover {
+    width: 40vw;
+    box-shadow: 1px 1px 1000vw white;
+}
+
+#testimonials_contents > p {
+    width: 50vw;
+    margin-top: 2%;
+    transition: all ease-in-out 0.2s;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#testimonials_contents > p:hover {
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+}
+
+#subscribe {
+    width: 100%;
+    height: 30%;
+    border: 1px solid rgb(0, 5, 60);
+    background-color: rgb(0, 5, 60);
+    position: absolute;
+    top: 589%;
+    z-index: 2;
+}
+
+#subscribe_form {
+    width: 90%;
+    height: 95%;
+    border: 1px solid transparent;
+    margin-top: 0.5%;
+    text-align: center;
+    padding-top: 1%;
+}
+
+#subscribe_form > h2 {
+    color: white;
+    margin-top: 1%;
+}
+
+#subscribe_form > p {
+    color: white;
+    margin-top: 1.2%;
+    width: 60%;
+}
+
+#Subscribe_button {
+    width: 10vw;
+    height: 4vh;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-size: 0.8vw;
+    font-weight: bold;
+}
+
+#Subscribe_button:hover {
+    opacity: 0.8;
+    background-color: white;
+    color: red;
+}
+
+#contact {
+    width: 100%;
+    height: 55vh;
+    border: 1px solid transparent;
+    box-shadow: 0px 5px 5px  transparent;
+    background-color:  white;
+    position: absolute;
+    top: 619%;
+    z-index: 1;
+}
+
+#contact_form {
+    width: 80%;
+    height: 90%;
+    border: 1px solid transparent;
+    margin-top: 1%;
+    text-align: c;
+}
+
+#contact_title {
+    width: 30%;
+    height: 30%;
+    border: 1px solid transparent;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.contact_contents {
+    width: 70%;
+    height: 20%;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+}
+
+.contact_content_details{
+    width: 13.5vw;
+    height: 60%;
+    border: 1px solid transparent;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border:1px solid transparent;
+    color: rgba(128, 128, 128, 0.627);
+}
+
+.contact_content_details > input {
+    width: 13.4vw;
+    height: 3.5vh;
+    border: 1px solid transparent;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.438);
+    border-radius: 0;
+    text-align: left;
+}
+
+.contact_content_details > input:hover {
+    box-shadow: 0 0 10px skyblue;
+}
+
+.contact_content_details > input:focus {
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px skyblue;
+    outline: none;
+}
+
+#contact_contents_address {
+    width: 50vw;
+    height: 60%;
+    border: 1px solid transparent;
+    font-weight: 500;
+    color: rgba(128, 128, 128, 0.604);
+}
+
+#contact_contents_address > input {
+    width: 50vw;
+    height: 3.5vh;
+    border: 1px solid transparent;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.486);
+    border-radius: 0;
+    text-align:left;
+}
+
+#contact_contents_address > input:hover {
+    box-shadow: 0 0 10px skyblue;
+}
+
+#contact_contents_address > input:focus {
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px skyblue;
+    outline: none;
+}
+
+#contact_contents_button {
+    width: 20%;
+    height: 60%;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    margin-top: 5.5%;
+}
+
+#contact_contents_button > input {
+    width: 11vw;
+    height: 5.6vh;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    background-color: rgb(48, 206, 48);
+    color: white;
+    font-size: 1.5vw;
+}
+
+#contact_contents_button > input:hover {
+    border: 1px solid transparent;
+    box-shadow: 0 0 30px green;
+    background-color: white;
+    color: green;
+}
+
+#footer {
+    width: 100%;
+    height: 15vh;
+    border: 1px solid rgb(0, 24, 113);
+    background-color: rgb(0, 24, 113);
+    position: absolute;
+    top: 670%;
+    z-index: 0;
+}
+
+#footer_div {
+    width: 20%;
+    height: 40%;
+    border: 1px solid transparent;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-left: 3.6%;
+}
+
+#footer_div > a {
+    text-decoration: none;
+}
+
+#footer_div > a > #white {
+    color: white;
+    font-size: 1vw;
+}
+
+#footer_div > a > #skyblue {
+    color: skyblue;
+    font-size: 1vw;
+}
