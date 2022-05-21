@@ -1,0 +1,28 @@
+특별한 언급이 없으면 배운것 적용하여 적당히 만들기 
+index.html
+1. favicon 적용 : images/favicon.ico
+2. css 연결: css/style.css
+3. 폰트: 사이트에 어울리는 웹폰트를 골라 적용해보세요. 
+4. 일반사항
+	- 화면 max-width: 1200px;
+
+4. header 
+   - a 태그: 로고 영역 만들고
+   - nav 태그: 메뉴 만들기  COFFEE, MENU, REWARDS, ORDER
+   - 앵커 적용: 
+           로고 텍스트인 Coffee House -> 첫번째 섹션 
+	COFFEE -> coffee 섹션
+	MENU ->menu 섹션
+	REWARDS-> rewards 섹션
+	ORDER -> order 섹션
+   - header 영역 positon:fixed 지정 (스크롤해도 보이도록)
+
+3. section
+   - 첫번째 section: always beside you, my coffee bean
+             - 텍스스틀 소문자로 쓰고 전부 대문자로 변경하는 태그 사용 
+	- text-shadow 적용(적당히)
+
+   - 두 번째 section: Coffee
+           -> images/bean.jpg 이미지 적용 
+
+   - 배경의 사선 그라데이션은 일반 그라데이션으로 적용
