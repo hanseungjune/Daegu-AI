@@ -4,28 +4,7 @@
     --accent-color: #d46f66;
 }
 
-html {
-    background-color: black;
-}
-
-body {
-    margin: 0 auto;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.container {
-    width: 100%;
-    margin: 0 0 auto;
-}
-
-a{
-    text-decoration: none;
-    color: var(--text-color);
-}
-
-ul {
-    list-style: none;  
-}
+/* header */
 
 .navbar {
     width: 100%;
@@ -91,7 +70,7 @@ ul {
     margin: 0.2rem auto;
     margin-top: 30px;
     margin-left: -65px;
-    border: 10px solid var(--background-color);
+    border: 3px solid var(--background-color);
     animation: submenu 0.5s alternate;
 }
 
@@ -171,7 +150,8 @@ ul {
 
     .navbar__submenu li {
         width: 150px;
-        padding: 1px 0;
+        padding: 0;
+        /* color: #aec0cf; */
     }
 
     .navbar__submenu.active {

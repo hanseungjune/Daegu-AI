@@ -1,14 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HetFlix</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/SlideImages.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" src="">
+    <title>Heckcha</title>
+    <script src="JS/header.js" defer></script>
+    <script src="JS/SlideImage.js" defer></script>
 </head>
+
 <body>
+    <!-- header -->
+    <header>
+        <div class="__navbar container">
+            <nav class="navbar">
+                <div class="navbar__logo">
+                    <i class="fa-solid fa-video"></i>
+                    <a href="#">Heckcha</a>
+                </div>
+                <ul class="navbar__menu">
+                    <li><a href="#">Homepage</a></li>
+                    <li><a href="#" class="submenu__toggleBtn">Categories <i class="fa-solid fa-caret-down"></i></a>
+                        <ul class="navbar__submenu">
+                            <li><a href="">Details</a></li>
+                            <li><a href="">Watching</a></li>
+                            <li><a href="">Blog Details</a></li>
+                            <li><a href="">Sign Up</a></li>
+                            <li><a href="">Login</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Our Blog</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+                <ul class="navbar__icons">
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li><i class="fa-solid fa-user"></i></li>
+                </ul>
+                <a href="#" class="navbar__toggleBtn">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+
     
+    <!-- 슬라이드 이미지 -->
+    <section>
+        <div class="__sildeimages container_2">
+            <div class="slideimages">
+                <div class="movielist">
+                    <iframe width="1024" height="550" src="https://www.youtube.com/embed/1HfnSH2gTb4"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="movielist">
+                    <iframe width="1024" height="550" src="https://www.youtube.com/embed/2EahotHTVpc"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="movielist">
+                    <iframe width="1024" height="550" src="https://www.youtube.com/embed/b4k_U7C-GDA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="slideimages__button__box">
+        <button class="slideimages__button" id="button1"></button>
+        <button class="slideimages__button" id="button2"></button>
+        <button class="slideimages__button" id="button3"></button>
+    </div>
 </body>
+
 </html>

@@ -1,0 +1,177 @@
+:root {
+    --text-color: #f0f4f5;
+    --background-color: #263343;
+    --accent-color: #d46f66;
+    --red-color: #dd3737;
+    --opacity-red-color: #dd37377f;
+    --opacity-navy-color: #2633436f;
+    --gray-color: #aaaaaa;
+}
+
+.container_3 {
+    width: 1024px;
+    height: 350vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product__box {
+    margin: 0;
+    width: 67%;
+    height: 100%;
+    float: left;
+    border: 1px solid black;
+    margin-right: 3%;
+}
+
+.product__title {
+    margin: 2% 2%;
+    padding: 0% 2%;
+    width: 91%;
+    height: 40px;
+    border: 1px solid black;
+    border-left: 5px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__title h4,
+.product__title span {
+    margin: 0;
+}
+
+.product__title h4 {
+    font-size: 1.5rem;
+}
+
+.product__title span {
+    color: var();
+}
+
+.product__contents {
+    margin: 2% 2%;
+    padding: 0;
+    width: 95.5%;
+    height: 52rem;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product__items {
+    width: 33%;
+    height: 49.7%;
+    border: 1px solid black;
+}
+
+.product__poster {
+    position: relative;
+    margin: 2% 2%;
+    padding: 0% 2%;
+    width: 91%;
+    height: 65%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.episode {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 4rem;
+    height: 1.2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.2rem;
+    background-color: var(--opacity-red-color);
+    color: var(--text-color);
+    font-size: 0.8rem;
+}
+
+.comment {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    width: 4rem;
+    height: 1.2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.2rem;
+    background-color: var(--opacity-navy-color);
+    color: var(--text-color);
+    font-size: 0.8rem;
+}
+
+.views {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    width: 4rem;
+    height: 1.2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.2rem;
+    background-color: var(--opacity-navy-color);
+    color: var(--text-color);
+    font-size: 0.8rem;
+}
+
+#product__item1{background: url('https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bfeM8NGWm1riLvvVxHDPLtWCRkF.jpg');}
+#product__item2{background: url('https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vL5ktZauR0fZMDOHKjakb1idhuU.jpg');}
+#product__item3{background: url('https://www.themoviedb.org/t/p/w600_and_h900_bestv2/x6KSvale7iuxLhsrEfhYNoICyfK.jpg');}
+#product__item4{background: url('https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uvQbXjMgC5weQepx4jLJJ60H3N0.jpg');}
+#product__item5{background: url('https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2MTGip0nfahQ1jPQCZSfCsPBZes.jpg');}
+#product__item6{background: url('https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fWkFnlCQLtfIBGnhMKVw2dttEDk.jpg');}
+
+#product__item1,
+#product__item2,
+#product__item3,
+#product__item4,
+#product__item5,
+#product__item6 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.product__items ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5px;
+    margin-top: 15px;
+}
+
+.product__items li {
+    margin: 0 2px;
+    padding: 2px 8px;
+    background-color: var(--gray-color);
+    color: var(--text-color);
+    border-radius: 25px;
+    font-size: 10px;
+}
+
+.product__items h5 {
+    margin-top: 0.6rem;
+    padding-left: 0.6rem;
+    font-size: 1rem;
+}
+
+.product__views {
+    margin: 0;
+    width: 29.5%;
+    height: 100%;
+    float: right;
+    border: 1px solid black;
+}
+
+.product__views::after {
+    content: "";
+    clear: both;
+    margin: 0;
+}
