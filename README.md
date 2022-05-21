@@ -81,7 +81,16 @@
 
 ## Day13
 ![Day13-2](https://user-images.githubusercontent.com/92035406/169552688-2130d1ef-a4ea-43fa-afee-5f97eb94b8cd.gif)
+
+###링크
 <a href="https://velog.io/@hanseungjune/DAY12-1%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%A0%9C%EC%9E%91"><img src="https://img.shields.io/badge/Day13-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+
+## Day14
+![FrontStudy2](https://user-images.githubusercontent.com/92035406/169642112-b744eb4e-bab2-419d-a7cb-b29d39de708b.gif)
+
+###링크
+<a href="https://velog.io/@hanseungjune/DAY14%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EB%AF%B8%EB%8B%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-Cafe-%EC%A0%9C%EC%8B%9C%ED%95%9C-%EC%A1%B0%EA%B1%B4%EC%9D%B4-%EB%94%B0%EB%A1%9C-%EC%9E%88%EC%9D%8C"><img src="https://img.shields.io/badge/Day14-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+
 
 # FrontEnd Study Schedule
 
@@ -89,5 +98,10 @@
 
 ### 링크
 <a href="https://velog.io/@hanseungjune/FrontStudy%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A0%9C%EC%9E%91-1%ED%8E%B8#%E2%98%85-%ED%98%84%EC%9E%AC-%EB%AA%A9%ED%91%9C-%E2%98%85"><img src="https://img.shields.io/badge/Project_Day1-5D87BF?style=flat-square&logo=velog&logoColor=1A1F71"/></a>
+
+![FrontStudy2](https://user-images.githubusercontent.com/92035406/169641820-65c53154-9631-4814-a0eb-46ac91952df5.gif)
+
+### 링크
+<a href="https://velog.io/@hanseungjune/FrontStudy%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A0%9C%EC%9E%91-2%ED%8E%B8"><img src="https://img.shields.io/badge/Project_Day2-5D87BF?style=flat-square&logo=velog&logoColor=1A1F71"/></a>
 
 ![Footer](https://capsule-render.vercel.app/api?type=transparent&color=gradient&height=100&section=footer&text=The%20End&animation=fadeIn&fontSize=30)
