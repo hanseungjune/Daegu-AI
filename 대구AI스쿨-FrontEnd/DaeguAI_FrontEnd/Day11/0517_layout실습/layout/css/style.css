@@ -52,15 +52,16 @@ a{
     border-top: 1px solid red;
     background-color: rgba(255,255,255,0.3);
 }
+
+.menu li:hover > a {
+    color:red;
+}
 .menu ul{
     background-color: yellowgreen;
     overflow: hidden;
 }
 .menu li a{
     display: block;
-}
-.menu li a:hover{
-    color:red;
 }
 
 /* menu2에 대한 style */

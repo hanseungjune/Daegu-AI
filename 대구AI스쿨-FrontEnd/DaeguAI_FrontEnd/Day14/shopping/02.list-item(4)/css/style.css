@@ -1,0 +1,237 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+#shop-body{
+    background-color: #e9ecef;
+}
+.shop-container{
+    width:1300px;
+    margin:0 auto;
+}
+/* 상단  gnb 영역  */
+#shop-header #shop-header-gnb{
+    width: 100%;
+    height:36px;
+    background-color: #03c75a;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+#shop-header #shop-header-middle{
+    width:100%;
+    height:66px;    
+    background-color: #03c75a;
+}
+#shop-header nav{
+    width:100%;
+    border-top:solid 1px #e8e8e8;
+    border-bottom: solid 1px #e8e8e8;
+    background-color: #fff;;
+}
+/* nav 메뉴를 가로로 정렬 */
+#shop-header nav ul{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    padding: 13px 0 8px 0;
+}
+#shop-header nav ul li{
+    margin-right: 16px;
+}
+
+/* list-item box 생성 */
+#shop-main .list-item{
+    width:308px;
+    height:496px;
+    background-color:#03c75a;
+    margin-bottom:20px;
+    position:relative; /* 3번째 박스 absolute 배치를 위해 저정 */
+}
+/* list-item 정렬 */
+#shop-main .list-wrap{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+
+/******* 세 번째 박스 : 공간 분할 *******/
+#shop-main .list-item .list-half{
+    width: 100%;
+    height: 248px;
+    background-color: #fff;
+}
+/* 상하 박스 배치 - #shop-main .list-item (부모)에서 position:relation  지정함 */
+#shop-main .list-item .list-half .list-half-top{
+    position: absolute;
+    left:0;
+    top:0;
+    background-color: #fff;
+}
+#shop-main .list-item .list-half .list-half-bottom{
+    position: absolute;
+    left:0;
+    bottom:0;
+    background-color: #fff;
+}
+
+/* 상단 타이틀 관련 설정 */
+#shop-main .list-item .list-half .list-half-header{
+    width:100%;
+    height:62px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 1px solid #e7e7e7;
+    position: relative;
+}
+
+#shop-main .list-item .list-half .list-half-header .half-over-lay{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#shop-main .list-item .list-half .list-half-bg{
+    padding-top:0;
+    border-bottom: solid 1px #fff;
+    background-color: green;
+}
+#shop-main .list-item .list-half .list-half-bg .shop-title-border{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);  /* 세로 가운데 텍스트 정렬 */
+    padding: 2px 4px;
+    color: #fff;
+    border:solid 1px #fff;
+    display:inline-block;
+}
+
+#shop-main .list-item .list-half .list-half-header .headline{
+    border: solid 1px #000;
+    padding: 2px 4px;
+    display:inline-block;
+    margin-bottom: 5px;
+}
+#shop-main .list-item .list-half .list-half-header h3{
+    font-size:14px;
+}
+
+/*상단 content-lists 설정 */
+#shop-main .list-item .list-half .content-lists{
+    overflow:hidden;
+    height: 177px;
+}
+
+/*content-list : 3개 일때 */
+#shop-main .list-item .list-half .content-lists-3 li{
+    float:left;
+    width:33%;
+    height:100%;
+    border-right: 1px solid #f0f0f0;
+    text-align:center;
+}
+#shop-main .list-item .list-half .content-lists-3 li:last-child{
+    border-right: none;
+}
+
+#shop-main .list-item .list-half .content-lists-3 li img{
+    width:100%;
+    height:100px;
+    margin-bottom:5px;
+}
+#shop-main .list-item .list-half .content-lists.content-lists-3 li h3{
+    font-size:13px;
+    margin-bottom: 5px;
+}
+#shop-main .list-item .list-half .content-lists.content-lists-3 li span{
+    font-size:12px;
+}
+
+/*content-list : 2개 일때 */
+#shop-main .list-item .list-half .content-lists-2{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding-top: 11px;
+}
+#shop-main .list-item .list-half .content-lists-2 li{
+    width:130px;
+    height:150px;
+    margin-right:8px;
+}
+#shop-main .list-item .list-half .content-lists-2 li:last-child{
+    margin-right:none;
+}
+
+#shop-main .list-item .list-half .content-lists-2 .content-image-wrap{
+    position:relative;
+    width:130px;
+    height:90px;
+}
+#shop-main .list-item .list-half .content-lists-2 .content-image-wrap .discount{
+    position: absolute;
+    display:block;
+    width:42px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 50%;
+    font-size:14px;
+    text-align: center;
+    background-color: orange;
+    color:#fff;
+    top: 6px;
+    right:5px;
+}
+#shop-main .list-item .list-half .content-lists-2 li h3{
+    font-size:13px;
+}
+#shop-main .list-item .list-half .content-lists-2 li .price{
+    color:#62a7ee;
+    font-size:12px;
+}
+#shop-main .list-item .list-half .content-lists-2 li .price em{
+    font-size:14px;
+    font-weight:700;
+    font-style:normal;
+}
+
+/********  4번째 박스 *********  */
+/* 경계 만들기 */
+#shop-main .list-item .list-row-3{
+    background-color: #fff;
+    /* width: 308px; */
+    /* border-top:1px solid #f0f0f0; */
+}
+/* 하나의 아이템 - flex로 가로 정렬 */
+#shop-main .list-item .list-row-3 li{
+    border-top:1px solid #f0f0f0;
+    padding: 12px 19px 10px 19px;
+    display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#shop-main .list-item .list-row-3 li .list-image-wrap{
+    width:90px;
+    height:60px;
+    margin-right:10px;
+}
+#shop-main .list-item .list-row-3 li .list-image-wrap img{
+    width:100%;
+    height:100%;
+    display: block; /*이미지를 div 안에 넣으면 생겨나는 현상, 
+                    inline  요소는 가상의 기준선이 존재(vertical-align:baseline)
+                    블록 요소의 경우 가상의 기준선이 없기 때문에
+                    하단 공백을 무시하도록 설정*/
+}
+#shop-main .list-item .list-row-3 li .list-row-info span{
+    font-size:12px;
+}
+#shop-main .list-item .list-row-3 li .list-row-info h3{
+    font-size:13px;
+}
