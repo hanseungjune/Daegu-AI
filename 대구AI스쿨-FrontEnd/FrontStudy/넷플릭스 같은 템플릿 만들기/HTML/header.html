@@ -14,8 +14,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../CSS/header.css">
     <link rel="stylesheet" href="/style.css">
-    <title>Nav bar</title>
+    <title>header</title>
     <script src="../JS/header.js" defer></script>
+    <script src="../JS/search.js" defer></script>
 </head>
 
 <body>
@@ -51,6 +52,18 @@
             </nav>
         </div>
     </header>
+
+        <!-- Search model Begin -->
+        <div class="search__window container_5">
+            <div class="search-model">
+                <div class="h-100 d-flex align-items-center justify-content-center">
+                    <div class="search-close-switch"><i class="fa-solid fa-x"></i></div>
+                    <form class="search-model-form" action="https://search.naver.com/search.naver">
+                        <input type="text" id="search-input" name=query placeholder="It is connected to Naver...." autocomplete="off">
+                    </form>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>

@@ -14,77 +14,736 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/SlideImages.css">
+    <link rel="stylesheet" href="CSS/product.css">
+    <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="style.css">
     <title>Heckcha</title>
     <script src="JS/header.js" defer></script>
     <script src="JS/SlideImage.js" defer></script>
+    <script src="JS/product.js" defer></script>
+    <script src="JS/footer.js" defer></script>
+    <script src="JS/search.js" defer></script>
 </head>
 
 <body>
-    <!-- header -->
-    <header>
-        <div class="__navbar container">
-            <nav class="navbar">
-                <div class="navbar__logo">
-                    <i class="fa-solid fa-video"></i>
-                    <a href="#">Heckcha</a>
-                </div>
-                <ul class="navbar__menu">
-                    <li><a href="#">Homepage</a></li>
-                    <li><a href="#" class="submenu__toggleBtn">Categories <i class="fa-solid fa-caret-down"></i></a>
-                        <ul class="navbar__submenu">
-                            <li><a href="">Details</a></li>
-                            <li><a href="">Watching</a></li>
-                            <li><a href="">Blog Details</a></li>
-                            <li><a href="">Sign Up</a></li>
-                            <li><a href="">Login</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Our Blog</a></li>
-                    <li><a href="#">Contacts</a></li>
-                </ul>
-                <ul class="navbar__icons">
-                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
-                    <li><i class="fa-solid fa-user"></i></li>
-                </ul>
-                <a href="#" class="navbar__toggleBtn">
-                    <i class="fa-solid fa-bars"></i>
-                </a>
-            </nav>
-        </div>
-    </header>
-
-    
-    <!-- 슬라이드 이미지 -->
-    <section>
-        <div class="__sildeimages container_2">
-            <div class="slideimages">
-                <div class="movielist">
-                    <iframe width="1024" height="550" src="https://www.youtube.com/embed/1HfnSH2gTb4"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-                <div class="movielist">
-                    <iframe width="1024" height="550" src="https://www.youtube.com/embed/2EahotHTVpc"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-                <div class="movielist">
-                    <iframe width="1024" height="550" src="https://www.youtube.com/embed/b4k_U7C-GDA"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+    <div class="main__container">
+        <!-- header -->
+        <header>
+            <div class="__navbar container">
+                <nav class="navbar">
+                    <div class="navbar__logo">
+                        <i class="fa-solid fa-video"></i>
+                        <a href="#">Heckcha</a>
+                    </div>
+                    <ul class="navbar__menu">
+                        <li><a href="#">Homepage</a></li>
+                        <li><a href="#" class="submenu__toggleBtn">Categories <i class="fa-solid fa-caret-down"></i></a>
+                            <ul class="navbar__submenu">
+                                <li><a href="">Details</a></li>
+                                <li><a href="">Watching</a></li>
+                                <li><a href="">Blog Details</a></li>
+                                <li><a href="">Sign Up</a></li>
+                                <li><a href="">Login</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Our Blog</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                    <ul class="navbar__icons">
+                        <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                        <li><i class="fa-solid fa-user"></i></li>
+                    </ul>
+                    <a href="#" class="navbar__toggleBtn">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </nav>
+            </div>
+        </header>
+        <!-- Search model Begin -->
+        <div class="search__window container_5">
+            <div class="search-model">
+                <div class="h-100 d-flex align-items-center justify-content-center">
+                    <div class="search-close-switch"><i class="fa-solid fa-x"></i></div>
+                    <form class="search-model-form" action="https://search.naver.com/search.naver">
+                        <input type="text" id="search-input" name=query placeholder="It is connected to Naver...."
+                            autocomplete="off">
+                    </form>
                 </div>
             </div>
         </div>
-    </section>
-    <div class="slideimages__button__box">
-        <button class="slideimages__button" id="button1"></button>
-        <button class="slideimages__button" id="button2"></button>
-        <button class="slideimages__button" id="button3"></button>
+        <!-- 슬라이드 이미지 -->
+        <section>
+            <div class="container">
+                <div class="__sildeimages container_2">
+                    <div class="slideimages">
+                        <div class="movielist">
+                            <iframe width="1024" height="550" src="https://www.youtube.com/embed/1HfnSH2gTb4"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="movielist">
+                            <iframe width="1024" height="550" src="https://www.youtube.com/embed/2EahotHTVpc"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="movielist">
+                            <iframe width="1024" height="550" src="https://www.youtube.com/embed/b4k_U7C-GDA"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="slideimages__button__box">
+            <button class="slideimages__button" id="button1"></button>
+            <button class="slideimages__button" id="button2"></button>
+            <button class="slideimages__button" id="button3"></button>
+        </div>
+        <!-- 각종 포스터들의 향연 -->
+        <section id="section__poster">
+            <div class="container">
+                <div class="__product container_3">
+                    <div class="product__box">
+                        <div class="product__title">
+                            <h4>TRENDING NOW</h4>
+                            <span>VIEW ALL <i class="fa-solid fa-arrow-right-long"></i></span>
+                        </div>
+                        <ul class="product__contents">
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item1">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        노스맨 (2022)<br>
+                                        액션, 모험, 판타지, 스릴러<br>
+                                        2h 17m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item2">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        닥터 스트레인지: 대혼돈의 멀티버스 (2022)<br>
+                                        판타지, 액션, 모험<br>
+                                        2h 6m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item3">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        배드 가이즈 (2022)<br>
+                                        애니메이션, 코미디, 액션, 가족, 범죄<br>
+                                        1h 40m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item4">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        신비한 동물들과 덤블도어의 비밀 (2022)<br>
+                                        액션, 모험, 판타지<br>
+                                        2h 22m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item5">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        파이어스타터 (2022)<br>
+                                        스릴러, 판타지, 공포<br>
+                                        1h 34m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item6">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        메모리 (2022)<br>
+                                        미스터리, 스릴러, 액션, 범죄<br>
+                                        1h 54m
+                                    </a></h5>
+                            </li>
+                        </ul>
+                        <div class="product__title">
+                            <h4>POPULAR SHOWS</h4>
+                            <span>VIEW ALL <i class="fa-solid fa-arrow-right-long"></i></span>
+                        </div>
+                        <ul class="product__contents">
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item6">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        메모리 (2022)<br>
+                                        미스터리, 스릴러, 액션, 범죄<br>
+                                        1h 54m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item5">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        파이어스타터 (2022)<br>
+                                        스릴러, 판타지, 공포<br>
+                                        1h 34m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item4">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        신비한 동물들과 덤블도어의 비밀 (2022)<br>
+                                        액션, 모험, 판타지<br>
+                                        2h 22m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item3">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        배드 가이즈 (2022)<br>
+                                        애니메이션, 코미디, 액션, 가족, 범죄<br>
+                                        1h 40m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item2">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        닥터 스트레인지: 대혼돈의 멀티버스 (2022)<br>
+                                        판타지, 액션, 모험<br>
+                                        2h 6m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item1">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        노스맨 (2022)<br>
+                                        액션, 모험, 판타지, 스릴러<br>
+                                        2h 17m
+                                    </a></h5>
+                            </li>
+                        </ul>
+                        <div class="product__title">
+                            <h4>RECENTLY ADDED SHOWS</h4>
+                            <span>VIEW ALL <i class="fa-solid fa-arrow-right-long"></i></span>
+                        </div>
+                        <ul class="product__contents">
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item2">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        닥터 스트레인지: 대혼돈의 멀티버스 (2022)<br>
+                                        판타지, 액션, 모험<br>
+                                        2h 6m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item4">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        신비한 동물들과 덤블도어의 비밀 (2022)<br>
+                                        액션, 모험, 판타지<br>
+                                        2h 22m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item6">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        메모리 (2022)<br>
+                                        미스터리, 스릴러, 액션, 범죄<br>
+                                        1h 54m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item1">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        노스맨 (2022)<br>
+                                        액션, 모험, 판타지, 스릴러<br>
+                                        2h 17m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item3">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        배드 가이즈 (2022)<br>
+                                        애니메이션, 코미디, 액션, 가족, 범죄<br>
+                                        1h 40m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item5">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        파이어스타터 (2022)<br>
+                                        스릴러, 판타지, 공포<br>
+                                        1h 34m
+                                    </a></h5>
+                            </li>
+                        </ul>
+                        <div class="product__title">
+                            <h4>LIVE ACTION</h4>
+                            <span>VIEW ALL <i class="fa-solid fa-arrow-right-long"></i></span>
+                        </div>
+                        <ul class="product__contents">
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item1">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        노스맨 (2022)<br>
+                                        액션, 모험, 판타지, 스릴러<br>
+                                        2h 17m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item3">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        배드 가이즈 (2022)<br>
+                                        애니메이션, 코미디, 액션, 가족, 범죄<br>
+                                        1h 40m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item5">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        파이어스타터 (2022)<br>
+                                        스릴러, 판타지, 공포<br>
+                                        1h 34m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item2">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        닥터 스트레인지: 대혼돈의 멀티버스 (2022)<br>
+                                        판타지, 액션, 모험<br>
+                                        2h 6m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item4">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        신비한 동물들과 덤블도어의 비밀 (2022)<br>
+                                        액션, 모험, 판타지<br>
+                                        2h 22m
+                                    </a></h5>
+                            </li>
+                            <li class="product__items">
+                                <div class="product__poster" id="product__item6">
+                                    <div class="episode">18 / 18</div>
+                                    <div class="comment"><i class="fa-regular fa-comment"></i> 11</div>
+                                    <div class="views"><i class="fa-regular fa-eye"></i> 9141</div>
+                                </div>
+                                <ul>
+                                    <li>Active</li>
+                                    <li>Movie</li>
+                                </ul>
+                                <h5><a href="#">
+                                        메모리 (2022)<br>
+                                        미스터리, 스릴러, 액션, 범죄<br>
+                                        1h 54m
+                                    </a></h5>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="product__main__views">
+                        <div class="product__views__title">
+                            <h4>TOP VIEWS</h4>
+                            <ul>
+                                <span class="day day2">
+                                    <li>Day</li>
+                                </span>
+                                <span href="" class="week week2">
+                                    <li>Week</li>
+                                </span>
+                                <span href="" class="month month2">
+                                    <li>Month</li>
+                                </span>
+                                <span href="" class="years years2">
+                                    <li>Years</li>
+                                </span>
+                            </ul>
+                        </div>
+                        <ul class="product__views__box">
+                            <li class="product__views grey__anatomi">
+                                <div class="div">
+                                    <iframe width="1417" height="796" src="https://www.youtube.com/embed/oX-x98JkXBU"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                    <img
+                                        src="https://www.themoviedb.org/t/p/w355_and_h200_multi_faces/dpzC0ACzwkVporKvzZGvNFOBFr6.jpg">
+                                </div>
+                                <div class="episode2">EP.18</div>
+                                <div class="views2"><span><i class="fa-regular fa-eye"></i> 120322</span></div>
+                                <div class="product__title2">
+                                    <h4>그레이 아나토미</h4>
+                                </div>
+                            </li>
+                            <li class="product__views annarasumanara">
+                                <div class="div">
+                                    <iframe width="1417" height="796" src="https://www.youtube.com/embed/hAY2RS-8C90"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                    <img
+                                        src="https://www.themoviedb.org/t/p/w355_and_h200_multi_faces/tX5W2a0B9r4cs25G78tKjNv76Gj.jpg">
+                                </div>
+                                <div class="episode2">EP.1</div>
+                                <div class="views2"><span><i class="fa-regular fa-eye"></i> 98334</span></div>
+                                <div class="product__title2">
+                                    <h4>안나라수마나라</h4>
+                                </div>
+                            </li>
+                            <li class="product__views shining__girls">
+                                <div class="div">
+                                    <iframe width="1417" height="796" src="https://www.youtube.com/embed/T0HvRxKSATM"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                    <img
+                                        src="https://www.themoviedb.org/t/p/w355_and_h200_multi_faces/uPmvUpzlt6wDhMOw1bQrDIgXeZ3.jpg">
+                                </div>
+                                <div class="episode2">EP.1</div>
+                                <div class="views2"><span><i class="fa-regular fa-eye"></i> 78461</span></div>
+                                <div class="product__title2">
+                                    <h4>샤이닝 걸스</h4>
+                                </div>
+                            </li>
+                            <li class="product__views moon__night">
+                                <div class="div">
+                                    <iframe width="1417" height="796" src="https://www.youtube.com/embed/FNU3vy5cGuE"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                    <img
+                                        src="https://www.themoviedb.org/t/p/w355_and_h200_multi_faces/vfWdZYGR5505zrCdgTHteFyARu3.jpg">
+                                </div>
+                                <div class="episode2">EP.1</div>
+                                <div class="views2"><span><i class="fa-regular fa-eye"></i> 52743</span></div>
+                                <div class="product__title2">
+                                    <h4>문나이트</h4>
+                                </div>
+                            </li>
+                            <li class="product__views ozak">
+                                <div class="div">
+                                    <iframe width="1417" height="796" src="https://www.youtube.com/embed/G2TQy_aMIhk"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                    <img
+                                        src="https://www.themoviedb.org/t/p/w355_and_h200_multi_faces/gD830J0sf5gEeZvzkRVPdGxJmSR.jpg">
+                                </div>
+                                <div class="episode2">EP.4</div>
+                                <div class="views2"><span><i class="fa-regular fa-eye"></i> 23948</span></div>
+                                <div class="product__title2">
+                                    <h4>오자크</h4>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="product__views__title2">
+                            <h4>NEW COMMENT</h4>
+                        </div>
+                        <ul class="product__main__comment">
+                            <li class="product__new__comment">
+                                <div class="product__new__comment__box">
+                                    <div class="product__new__comment__image">
+                                        <img
+                                            src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8dzKn3RtPWUJRG9ymSpi423eMNV.jpg">
+                                        <div><span><i class="fa-regular fa-eye"></i> 5632</span></div>
+                                    </div>
+                                    <div class="product__new__comment__details">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h4>
+                                            수퍼 소닉 2 (2022)<br>
+                                            <span style="font-size:13px;">액션, SF, 코미디, 가족, 모험<br>
+                                                2022/04/08 (US)<br>
+                                                제작비 $110,000,000.00<br>
+                                                Jeff Fowler</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product__new__comment">
+                                <div class="product__new__comment__box">
+                                    <div class="product__new__comment__image">
+                                        <img
+                                            src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bCz71ysciwNL2xddSm25ufrgZ7V.jpg">
+                                        <div><span><i class="fa-regular fa-eye"></i> 4386</span></div>
+                                    </div>
+                                    <div class="product__new__comment__details">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h4>
+                                            더 배트맨 (2022)<br>
+                                            <span style="font-size:13px;">범죄, 미스터리, 스릴러<br>
+                                                2022/03/01 (KR)<br>
+                                                제작비 $185,000,000.00<br>
+                                                Matt Reeves</span>
+                                        </h4>
+                                    </div>
+                            </li>
+                            <li class="product__new__comment">
+                                <div class="product__new__comment__box">
+                                    <div class="product__new__comment__image">
+                                        <img
+                                            src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/e4ki8ynKT5JAK2KoJTwCFWTsQlW.jpg">
+                                        <div><span><i class="fa-regular fa-eye"></i> 2367</span></div>
+                                    </div>
+                                    <div class="product__new__comment__details">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h4>
+                                            칩과 데일: 다람쥐 구조대 (2022)<br>
+                                            <span style="font-size:13px;">애니메이션, 코미디, 모험<br>
+                                                2022/05/20 (US)<br>
+                                                제작비 $20,000,000.00<br>
+                                                Akiva Schaffer</span>
+                                        </h4>
+                                    </div>
+                            </li>
+                            <li class="product__new__comment">
+                                <div class="product__new__comment__box">
+                                    <div class="product__new__comment__image">
+                                        <img
+                                            src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xIljZ4AxGPTr1uwDARaeBXUz5jP.jpg">
+                                        <div><span><i class="fa-regular fa-eye"></i> 1672</span></div>
+                                    </div>
+                                    <div class="product__new__comment__details">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h4>
+                                            러브, 데스 + 로봇 (2019)<br>
+                                            <span style="font-size:13px;">애니메이션<br>
+                                                2019/03/17 (US)<br>
+                                                제작비 미공개<br>
+                                                Tim Miller</span>
+                                        </h4>
+                                    </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <div class="__footer container6">
+                <div class="circleBtn">
+                    <button type="button" class="scrollup">
+                        <i class="fa-solid fa-angles-up"></i>
+                    </button>
+                </div>
+                <div class="footerbar">
+                    <div class="footer__logo">
+                        <i class="fa-solid fa-video"></i>
+                        <a href="#">Heckcha</a>
+                    </div>
+                    <ul class="footer__menu">
+                        <li><a href="#">Homepage</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Our Blog</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                    <div class="footer__copyright">
+                        <h5>
+                            Copyright ©2022 All rights reserved |This template is made with by</h5>
+                        <span><a href="#">MyGithub</a></span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Search model Begin -->
+        <div class="search-model">
+            <div class="h-100 d-flex align-items-center justify-content-center">
+                <div class="search-close-switch"><i class="icon_close"></i></div>
+                <form class="search-model-form">
+                    <input type="text" id="search-input" placeholder="Search here.....">
+                </form>
+            </div>
+        </div>
     </div>
+    <div class="standard"></div>
 </body>
 
 </html>

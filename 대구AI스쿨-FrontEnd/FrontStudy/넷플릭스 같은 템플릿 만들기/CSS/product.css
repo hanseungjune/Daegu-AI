@@ -1,5 +1,6 @@
 :root {
     --text-color: #f0f4f5;
+    --html-color: #1f2936;
     --background-color: #263343;
     --accent-color: #d46f66;
     --red-color: #dd3737;
@@ -10,8 +11,8 @@
 
 .container_3 {
     width: 1024px;
-    height: 350vw;
-    background-color: white;
+    height: 3620px;
+    background-color: var(--background-color);
     display: flex;
     flex-wrap: wrap;
 }
@@ -21,7 +22,7 @@
     width: 67%;
     height: 100%;
     float: left;
-    border: 1px solid black;
+    border: 1px solid transparent;
     margin-right: 3%;
 }
 
@@ -30,7 +31,7 @@
     padding: 0% 2%;
     width: 91%;
     height: 40px;
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-left: 5px solid red;
     display: flex;
     justify-content: space-between;
@@ -55,7 +56,7 @@
     padding: 0;
     width: 95.5%;
     height: 52rem;
-    border: 1px solid black;
+    border: 1px solid transparent;
     display: flex;
     flex-wrap: wrap;
 }
@@ -63,7 +64,7 @@
 .product__items {
     width: 33%;
     height: 49.7%;
-    border: 1px solid black;
+    border: 1px solid transparent;
 }
 
 .product__poster {
@@ -72,7 +73,7 @@
     padding: 0% 2%;
     width: 91%;
     height: 65%;
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 10px;
 }
 
@@ -82,7 +83,7 @@
     left: 0.5rem;
     width: 4rem;
     height: 1.2rem;
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 5px;
     text-align: center;
     line-height: 1.2rem;
@@ -97,7 +98,7 @@
     left: 0.5rem;
     width: 4rem;
     height: 1.2rem;
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 5px;
     text-align: center;
     line-height: 1.2rem;
@@ -112,7 +113,7 @@
     right: 0.5rem;
     width: 4rem;
     height: 1.2rem;
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 5px;
     text-align: center;
     line-height: 1.2rem;
@@ -128,15 +129,24 @@
 #product__item5{background: url('https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2MTGip0nfahQ1jPQCZSfCsPBZes.jpg');}
 #product__item6{background: url('https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fWkFnlCQLtfIBGnhMKVw2dttEDk.jpg');}
 
-#product__item1,
-#product__item2,
-#product__item3,
-#product__item4,
-#product__item5,
-#product__item6 {
+#product__item1,    /*노스맨*/
+#product__item2,    /*닥터 스트레인지*/
+#product__item3,    /*배드 가이즈*/
+#product__item4,    /*덤블도어*/
+#product__item5,    /*파이어스타터*/
+#product__item6 {   /*메모리*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+}
+
+#product__item1:hover,    /*노스맨*/
+#product__item2:hover,    /*닥터 스트레인지*/
+#product__item3:hover,    /*배드 가이즈*/
+#product__item4:hover,    /*덤블도어*/
+#product__item5:hover,    /*파이어스타터*/
+#product__item6:hover {   /*메모리*/
+    opacity: 0.8;
 }
 
 .product__items ul {
@@ -162,16 +172,238 @@
     font-size: 1rem;
 }
 
-.product__views {
+.product__main__views {
     margin: 0;
     width: 29.5%;
     height: 100%;
     float: right;
-    border: 1px solid black;
+    border: 1px solid transparent;
+    padding-top: 7px;
 }
 
-.product__views::after {
+.product__main__views::after {
     content: "";
     clear: both;
     margin: 0;
+}
+
+.product__views__title,
+.product__views__title2 {
+    margin: 2% 2%;
+    padding: 0% 2%;
+    width: 90%;
+    height: 40px;
+    border: 1px solid transparent;
+    border-left: 5px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__views__box {
+    margin: 2% 2%;
+    padding: 2% 2%;
+    width: 91%;
+    height: 1000px;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.product__views {
+    width: 100%;
+    height: 20%;
+    border: 1px solid transparent;
+    margin-bottom: 0.5rem;
+}
+
+.grey__anatomi,
+.annarasumanara,
+.shining__girls,
+.moon__night,
+.ozak {
+    width: 100%;
+    transition: all 0.8s 0.2s ease-in-out;
+}
+
+.product__views > .div {
+    float: left;
+    width: 100%;
+    height: 70%;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.product__views > .div > iframe {
+    width: 99%;
+    height: 100%;
+    position: absolute;
+    top: 1px;
+    z-index: 0;
+    border-radius: 5px;
+}
+
+.product__views > .div > img {
+    width: 99%;
+    height: 100%;
+    position: absolute;
+    top: 1px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.product__views > .div > img:active,
+.product__views > .div > img:hover {
+    display: none;
+}
+
+.episode2 {
+    font-size: 1rem;
+    background-color: var(--red-color);
+    color: var(--text-color);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.views2 {
+    float: left;
+    padding: 7px 10px;
+}
+
+.product__title2 {
+    float: right;
+    padding: 7px 30px;
+}
+
+.product__title2 h4 {
+    margin: 0;
+}
+
+
+.product__comment {
+    margin: 2% 2%;
+    padding: 2% 2%;
+    width: 91%;
+    height: 1000px;
+    border: 1px solid transparent;
+}
+
+.product__comment__title {
+    margin: 2% 2%;
+    padding: 0% 2%;
+    width: 90%;
+    height: 40px;
+    border: 1px solid transparent;
+    border-left: 5px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__main__comment {
+    margin: 2% 2%;
+    padding: 2% 2%;
+    width: 91%;
+    height: 800px;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.product__new__comment {
+    width: 100%;
+    height: 25%;
+    border: 1px solid transparent;
+    margin-bottom: 0.5rem;
+}
+
+.product__views__title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product__views__title2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.product__views__title > h4, 
+.product__views__title2 > h4 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.product__views__title > ul {
+    display: flex;
+    margin: 0;
+}
+
+.product__views__title li {
+    font-size: 0.8rem;
+    padding: 2.5px 3px;
+}
+
+.product__views__title li:hover,
+.product__views__title li:active {
+    background-color: var(--text-color);
+    color: var(--background-color);
+}
+
+.product__new__comment__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.product__new__comment__image {
+    float: left;
+    margin: 10px 0px;
+    width: 35%;
+    height: 90%;
+    border: 1px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product__new__comment__image > img {
+    width: 100%;
+    height: 75%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.product__new__comment__details {
+    width: 65%;
+    height: 90%;
+    border: 1px solid transparent;
+    margin: 0;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.product__new__comment__details > ul {
+    display: flex;
+    margin: 10px 10px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.product__new__comment__details li {
+    margin: 0 2px;
+    padding: 2px 8px;
+    background-color: var(--gray-color);
+    color: var(--text-color);
+    border-radius: 25px;
+    font-size: 10px;
+}
+
+.product__new__comment__details h4 {
+    margin: 0px 10px;
 }

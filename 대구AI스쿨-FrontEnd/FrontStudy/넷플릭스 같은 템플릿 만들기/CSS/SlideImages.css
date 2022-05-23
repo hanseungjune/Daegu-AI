@@ -1,7 +1,12 @@
 :root {
     --text-color: #f0f4f5;
+    --html-color: #1f2936;
     --background-color: #263343;
     --accent-color: #d46f66;
+    --red-color: #dd3737;
+    --opacity-red-color: #dd37377f;
+    --opacity-navy-color: #2633436f;
+    --gray-color: #aaaaaa;
 }
 
 /* slideimages */
@@ -39,8 +44,38 @@
     float: left;
 }
 
+.movielist > iframe {
+    width: 1024px;
+    height: 550px;
+}
 
+@media screen and (max-width: 1050px) {
 
+.movielist > iframe {
+    width: 100vw;
+}
+
+.container_2 {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.slideimages__button__box {
+    width: 100vw;
+}
+
+}
+
+@media screen and (max-width:768px) {
+    .container {}
+
+    .movielist > iframe {
+        width: 100vw;
+    }
+}
 
 
 

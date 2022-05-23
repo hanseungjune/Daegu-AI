@@ -1,7 +1,12 @@
 :root {
     --text-color: #f0f4f5;
+    --html-color: #1f2936;
     --background-color: #263343;
     --accent-color: #d46f66;
+    --red-color: #dd3737;
+    --opacity-red-color: #dd37377f;
+    --opacity-navy-color: #2633436f;
+    --gray-color: #aaaaaa;
 }
 
 /* header */
@@ -66,6 +71,7 @@
 }
 
 .navbar__submenu.active {
+    z-index: 4;
     display: block;
     margin: 0.2rem auto;
     margin-top: 30px;
@@ -96,6 +102,11 @@
 
 .navbar__icons li {
     padding: 8px 12px;
+    cursor: pointer;
+}
+
+.navbar__icons li:hover {
+    color: var(--red-color);
 }
 
 .navbar__toggleBtn {
@@ -106,10 +117,24 @@
     display: none;
 }
 
+@media screen and (max-width: 1050px) {
+    .__navbar, header {
+        height: 85px;
+    }
+
+    .container {
+        height: 35rem
+    };
+}
+
 @media screen and (max-width:768px) {
-    #container {
+    .container {
         width: 100%;
         margin: 0 auto;
+    }
+
+    header {
+        height: 285px;
     }
     
     /* header */
@@ -155,6 +180,7 @@
     }
 
     .navbar__submenu.active {
+        z-index: 4;
         width: 150px;
         position: absolute;
         transform: translate(-40%, 0%);
@@ -166,4 +192,75 @@
         display: flex;
         margin: 0.2rem auto;
     }
+}
+
+/* search__window */
+
+.container_5 {
+    position: relative;
+}
+
+.h-100 {
+    height: 100%;
+    width: 100%;
+}
+
+.search-model {
+	position: fixed;
+    display: none;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #000;
+	z-index: 99999;
+}
+
+@keyframes fade {
+    0% {
+        width: 0%;
+	    height: 0%;
+        opacity: 0;
+    }
+
+    100% {
+        width: 100%;
+	    height: 100%;
+        opacity: 1;
+    }
+}
+
+.search-model.fade {
+    display: block;
+    animation: fade 1s ease-in-out;
+}
+
+.search-model-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-model-form input {
+	width: 80%;
+	font-size: 50px;
+	border: none;
+	border-bottom: 2px solid #333;
+	background: 0 0;
+	color: #999;
+}
+
+#search-input {
+    padding: 10px 30px;
+}
+
+.search-close-switch {
+	color: var(--text-color);
+    font-size: 3rem;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
 }
