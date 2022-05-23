@@ -491,6 +491,41 @@ reg; : ®(앞에 & 붙여야함)
 
 -----
 
+## Day15
+![Day15_3GIT](https://user-images.githubusercontent.com/92035406/169788082-028e6c6b-77e4-4d94-8c72-b2ff09809d4a.gif)
+
+
+### 링크
+<a href="https://velog.io/@hanseungjune/DAY15%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-CSS1#0-%EB%AA%A9%EC%B0%A8"><img src="https://img.shields.io/badge/Day15-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+
+```
+
+1. 반응형 CSS?
+
+1) 장점
+→ 모든 기기에서 접속 가능
+→ 가로모드에 맞춰 레이아웃 변경 가능
+→ 사이트 유지 관리 용이
+→ 최신 웹 표준 따름
+
+2) 단점
+→ 사이트 디자인이 단순
+→ 하위 버전 브라우저와 호환성 문제 있을 수 있음 -> 미디어쿼리는 CSS3 기술
+
+→ 기본적으로 PC 버전과 Mobile 버전으로 구분함 ( 그래서 클래스도 구분 )
+@media (min-width:600px) and (max-width:767px) 또는 둘 중에 하나만 사용하는 식
+3개만 외우자! 1024px, 768px, 320px
+→ 여기서는 Mobile 버전인 경우는 Max-width:99px로 걸어두고 나머지는 PC버전이라서, pc는 99px 이하부터 none이다. Mobile의 경우는 그 반대!
+
+→ 너비 > 높이 ? (orientation:landscape)(가로 방향)
+→ 너비 < 높이 ? (orientation:portrait)(세로 방향)
+
+3) 모바일 first : 원래는 자신의 PC기준으로 만드는 게 정석인데, 모바일 너비의 기준으로 만드는 것을 '모바일 퍼스트' 라고 표현한다.
+
+```
+
+-----
+
 # FrontEnd Study Schedule
 
 ![FrontStudy1](https://user-images.githubusercontent.com/92035406/169362359-49ef184a-c192-4a67-aca0-5e3f0683c5e1.gif)
