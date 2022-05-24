@@ -62,37 +62,134 @@ ul {
     }
 
     .product__main__views {
-        width: 100%;
-        height: 2900px;
+        width: 768px;
+        height: 1400px;
+        flex-wrap: wrap;
+    }
+
+    #left {
+        float: left;
+        width: 50%;
+    }
+    
+    #right {
+        float: left;
+        width: 50%;
     }
 
     .product__views__title {
-        width: 50%;
-        margin: 0 25%;
-    }
-
-    .product__views__box {
-        width: 50%;
-        height: 1500px;
-        margin: 0 25%;
+        margin: 0;
+        margin-left: 10px;
+        width: 320px;
+        justify-content: space-between;
+        float: left;
     }
 
     .product__views__title2 {
-        width: 50%;
-        margin: 0 25%;
+        margin: 0;
+        margin-left: 10px;
+        width: 320px;
+        justify-content: space-between;
+        float: left;
+    }
+
+    .product__views__box {
+        float: left;
+        width: 350px;
+        height: 1000px;
+    }
+
+    .product__views__box > li {
+        width: 292px;
+        height: 192px;
     }
 
     .product__main__comment {
-        width: 50%;
+        float: left;
+        width: 350px;
         height: 1000px;
-        margin: 0 25%;
+        padding-top: 0;
+    }
+
+    .product__new__comment__image {
+        margin-top: 0;
+    }
+
+    .product__new__comment__box {
+        align-items: flex-start;
     }
 
     #section__poster {
-    height: 6250px;
+    height: 4700px;
+    }
+
+    body {
+       height: 5700px; 
     }
 
     .standard {
         width: 1px;
     }
+}
+
+@media screen and (max-width:768px) {
+
+    #section__poster,
+    .container {
+        width: 700px;
+        margin: 0;
+    }
+
+    .product__box {
+        width: 700px;
+        height: 3820px;
+    }
+
+    .product__title {
+        width: 85vw;
+    }
+
+    .product__contents {
+        width: 700px;
+        height: 880px;
+        display: grid;
+        grid-template-columns: repeat(2, 350px);
+    }
+
+    .product__items {
+        width: 350px;
+        height: 290px;
+    }
+
+    .product__poster {
+        float: left;
+        width: 140px;
+        height: 280px;
+    }
+
+    .product__items > ul,
+    .product__items > h5 {
+        float: right;
+        width: 170px;
+    }
+
+    .product__main__views {
+        width: 740px;
+    }
+
+    .product__views__title {
+        margin: 0;
+        margin-left: 10px;
+        width: 320px;
+        justify-content: space-between;
+    }
+
+    #section__poster {
+        height: 4900px;
+        }
+    
+    .__product {
+        width: 740px;
+    }
+
 }

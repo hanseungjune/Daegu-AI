@@ -28,7 +28,9 @@
 
 .product__title {
     margin: 2% 0%;
+    margin-left: 2%;
     padding: 0% 2%;
+    padding-right: 0%;
     width: 91%;
     height: 40px;
     border: 1px solid transparent;
@@ -54,7 +56,6 @@
 .product__contents {
     margin: 0;
     padding: 0;
-    width: 95.5%;
     height: 52rem;
     border: 1px solid transparent;
     display: flex;
@@ -177,7 +178,7 @@
     margin: 0;
     width: 29.5%;
     height: 100%;
-    float: right;
+    float: left;
     border: 1px solid transparent;
     padding-top: 7px;
 }
@@ -202,9 +203,9 @@
 }
 
 .product__views__box {
-    margin: 2% 2%;
-    padding: 2% 2%;
-    width: 91%;
+    margin: 2% 0%;
+    padding: 2% 0%;
+    width: 96%;
     height: 1000px;
     border: 1px solid transparent;
     display: flex;
