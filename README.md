@@ -526,6 +526,24 @@ reg; : ®(앞에 & 붙여야함)
 
 -----
 
+## Day16
+![Day16](https://user-images.githubusercontent.com/92035406/170030564-72f94be5-5f9d-4947-aad5-73da61de9663.gif)
+
+
+### 링크
+<a href="https://velog.io/@hanseungjune/DAY16%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-CSS-%EB%B3%B5%EC%8A%B5-FLEX-%EC%99%80-GRID#%EC%86%8C%EA%B0%90"><img src="https://img.shields.io/badge/Day16-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+
+```
+
+1. grid 배치의 방식은 2가지!
+
+1) column-count, column-gap
+→ 한 화면에 보여지는 칼럼 갯수로 그리드를 설정한다.
+
+2) display:grid, grid-template-columns: repeat(n, px)
+→ 한 화면에 반복되는 칼럼 갯수와 그 칼럼 마다의 너비를 지정해줌
+
+```
 # FrontEnd Study Schedule
 
 ![FrontStudy1](https://user-images.githubusercontent.com/92035406/169362359-49ef184a-c192-4a67-aca0-5e3f0683c5e1.gif)
