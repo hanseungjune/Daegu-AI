@@ -544,6 +544,36 @@ reg; : ®(앞에 & 붙여야함)
 → 한 화면에 반복되는 칼럼 갯수와 그 칼럼 마다의 너비를 지정해줌
 
 ```
+
+-----
+
+## Day17
+![Day17](https://user-images.githubusercontent.com/92035406/170294566-f610440e-565f-463c-9a8b-8a560f9e3345.gif)
+
+
+### 링크
+<a href="https://velog.io/@hanseungjune/DAY17%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-CSS-%EB%B3%B5%EC%8A%B5#2-%EA%B3%A0%EC%96%91%EC%9D%B4%EA%B0%80-%EC%B5%9C%EA%B3%A0%E2%91%A0"><img src="https://img.shields.io/badge/Day17-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+
+```
+background-position: x-position y-position 
+x-position : left, center, right
+y-position : top, center, bottom, 
+
+→ 이미지를 배경으로 쓸 때, 이미지 반복을 없애야한다.(no-repeat)
+→ background-attachment는 fixed, scroll, local 이 있고, fixed랑 scroll은 뒤의 배경의 모습이 좀 다르다. local은 배경이 고정되지 않고 같이 스크롤 된다. ★★
+→ background-position 은 위처럼 표현 가능하다. 이것도 내용 중요함! ★★★
+
+→ object-fit은 보통 개별img나 item에 걸어주며, cover를 쓰면 이미지의 종횡비를 유지한 상태에서 이쁘게 이미지를 확대해줌
+→ border-radius 는 다음의 이미지를 보고 이해하자.
+
+→ max-width를 사용하면 미디어 쿼리를 딱 맞게 조절가능해보인다. (글씨 튀어나옴 방지)
+
+→ list의 앞 부분에 번호를 자동으로 매겨주는 코드 조합이다.
+근데 li:before 에 counter-increment: list; 와 content: counter(list); 를 같이 적어도 된다.
+→ counter-increment 뒤에 ". " 이런 식으로 구분자를 둘 수도 있다.
+→ 왼쪽은 \201C, 오른쪽 \201D 를 사용하면 큰따옴표가 나온다.
+
+```
 # FrontEnd Study Schedule
 
 ![FrontStudy1](https://user-images.githubusercontent.com/92035406/169362359-49ef184a-c192-4a67-aca0-5e3f0683c5e1.gif)
@@ -583,6 +613,40 @@ reg; : ®(앞에 & 붙여야함)
 2. nowrap을 걸어야 flex의 배치대로 옆으로 나란히 배치되면서, overflow: hidden이 적용된다. 그리고 -1024px 씩 이동하는 JavaScript 코드를 적용!
 
 3. JS코드는 해당 페이지에서 확인 할 것! ( 특정버튼을 클릭하면, 원하는 화면으로 이동 )
+
+```
+
+-----
+
+![FrontStudy3](https://user-images.githubusercontent.com/92035406/170296081-062ec377-5df2-408c-8730-4da77537b590.gif)
+
+
+### 링크
+<a href="https://velog.io/@hanseungjune/FrontStudy%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A0%9C%EC%9E%91-3%ED%8E%B8"><img src="https://img.shields.io/badge/Project_Day3-5D87BF?style=flat-square&logo=velog&logoColor=1A1F71"/></a>
+
+```
+1. display: flex, flex-wrap: wrap 로 list 를 적절하게 배치한다.
+
+2. 해당 이미지로 커서가 이동하면, 뒤에 영상이 뜨는것은 absolute로 인하여 같은 위치로 가게 해서 가능하였다. 
+그리고 :hover 할때 z-index를 주면서 이미지를 영상 뒤로 가게 하면 해당 효과를 만들어 낼 수 있다.
+
+3. 오른쪽 상단에 Day ~ Years를 클릭하면, 각 리스트가 자리가 바뀌게끔 효과를 주는 코드이다. ( style.transform = translate(px) 효과를 적용 )
+
+```
+
+-----
+
+![FrontStudy3](https://user-images.githubusercontent.com/92035406/170296081-062ec377-5df2-408c-8730-4da77537b590.gif)
+
+
+### 링크
+<a href="https://velog.io/@hanseungjune/FrontStudy%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A0%9C%EC%9E%91-4%ED%8E%B8"><img src="https://img.shields.io/badge/Project_Day4-5D87BF?style=flat-square&logo=velog&logoColor=1A1F71"/></a>
+
+```
+
+1. absolute를 적용시켜서 버튼을 옮기기 위해 footer에 margin 값을 주기보다는 임의로 공간을 만들어서 그 공간에 relative를 적용함
+
+2. window.scrollTo({top:0, left:0, behavior:"smooth"}); 를 버튼에 적용하여 자동스크롤 설정하는 것
 
 ```
 
