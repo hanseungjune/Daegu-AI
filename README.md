@@ -574,6 +574,40 @@ y-position : top, center, bottom,
 → 왼쪽은 \201C, 오른쪽 \201D 를 사용하면 큰따옴표가 나온다.
 
 ```
+
+-----
+
+## Day18
+![Day18](https://user-images.githubusercontent.com/92035406/170454669-c2134751-a038-4f25-a67c-78828059f69d.gif)
+
+
+### 링크
+<a href="https://velog.io/@hanseungjune/DAY18%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-CSS-%EB%B3%B5%EC%8A%B5#4-svg-animation-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-img-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-loading-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-getskeleton-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC"><img src="https://img.shields.io/badge/Day18-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+
+```
+1. outline-offset, clip-path
+→ outline-offset은 border와 outline의 간격을 말한다.
+→ clip-path:circle(); 는 내부의 이미지를 circle로 보여주기 위해서, circle()를 하였고, 이 주변으로 글씨를 자연스럽게 나열하기 위해서, shape-outside: circle(); 를 설정하였다.
+→ width 설정할때 calc( 100% / 3 ) 을 써봐야겠다.
+
+2. 변수지정, calc()
+→ :root {} 안에 변수 선언하면, 전역선언!
+→ 특정 태그 안에 변수 선언하면, 지역선언!
+→ calc() 안에 var(변수명)을 넣고, 1px 을 단위로써 곱하면, width가 설정된다.
+
+3. SCSS
+→ 부모 상속 관계를 시각적으로 보면서 작업할 수 있음.
+→ 변수는 $ 앞에 붙이면 변수 선언!
+→ SCSS 파일 작성 후, 저장하면 저렇게 4개가 뜬다고 함.
+→ @mixin 스타일 변수명 저장해서 @include로 불러와주면 되게 편하다.
+→ @mixin은 SCSS의 함수라고 생각하자.
+
+4. 각종 라이브러리(SVG, animation 라이브러리, IMG 라이브러리, loading 라이브러리, getskeleton 라이브러리)
+→ 벨로그 들어와서 봐라! 
+```
+
+-----
+
 # FrontEnd Study Schedule
 
 ![FrontStudy1](https://user-images.githubusercontent.com/92035406/169362359-49ef184a-c192-4a67-aca0-5e3f0683c5e1.gif)
