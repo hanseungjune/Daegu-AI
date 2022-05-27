@@ -608,6 +608,33 @@ y-position : top, center, bottom,
 
 -----
 
+## Day19
+![Day19 1](https://user-images.githubusercontent.com/92035406/170681972-45cf7c07-d21a-449b-9c34-35c22df3b492.gif)
+
+
+
+### 링크
+<a href="https://velog.io/@hanseungjune/DAY19%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-BootStrap-v5.2#%EC%86%8C%EA%B0%90"><img src="https://img.shields.io/badge/Day19-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+
+```
+1. BootStrap 사용을 왜 할까?
+- 디자이너 인력이 없을 때
+- 쓸 만한 인터페이스 정도면 충분할 때
+- 반응형 웹을 기본 지원하기 때문에
+
+2. 이용 방법
+- 블로그에 있는 CDN을 긁어와서 정해진 위치에 붙여넣기!
+- 코드는 v5.2 이라서, 홈페이지에 업데이트 될 수 있음을 참고!
+- example 탭으로 들어가서 복사해서 순차적으로 붙여넣기만 하면 된다.
+
+3. 소감
+- 의존하면 실력이 도태될 것 같아서, 참고정도만 하는게 맞다는 생각이 들었다.
+- 그래도 쓸만하면 쓰자 ㅎ 제대로 된 템플릿 하나 만들어 봐야겠다.
+
+```
+
+-----
+
 # FrontEnd Study Schedule
 
 ![FrontStudy1](https://user-images.githubusercontent.com/92035406/169362359-49ef184a-c192-4a67-aca0-5e3f0683c5e1.gif)
