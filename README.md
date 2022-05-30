@@ -635,6 +635,39 @@ y-position : top, center, bottom,
 
 -----
 
+## Day20
+![Day20](https://user-images.githubusercontent.com/92035406/170965819-45fe081e-a73d-4c25-aac3-a02c1a811d60.gif)
+
+
+### 링크
+<a href="https://velog.io/@hanseungjune/DAY20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-BootStrap-%EC%8B%A4%EC%8A%B5"><img src="https://img.shields.io/badge/Day20_1-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+<a href="https://velog.io/@hanseungjune/DAY202%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-BootStrap-%EC%8B%A4%EC%8A%B5"><img src="https://img.shields.io/badge/Day20_2-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+
+```
+1. 첫번째 실습 부분
+  - container-fluid는 모든 화면에서 width:100%
+  - sm 사이즈 이하로 줄이면 navbar 는 세로 정렬 : navbar-expand-sm
+  - ul:navbar-nav / li: nav-item / a: nav-link → 묶음!
+  - nav에 navbar를 쓰지 않으면, 그 기능을 상실한다. ( 내가 지웠다가 써봄 )
+  - ul: nav-pills, li: active → navbar 배경 채우기
+  - hr: d-sm-none → small 사이즈 이상 되면 없어짐
+  - col-sm-8 → small 사이즈 이상부터 8/12 차지
+  - ms : margin-start
+  - bi bi-twitch : icons 삽입
+  
+
+2. 두번째 실습 부분
+  - navbar-expand-sm : 세로정렬 / fixed-top : navbar 화면 상단 고정 / navbar-brand : 로고를 나타냄
+  - button 태그에는 navbar-toggler / span 태그에는 navbar-toggler-icon.
+  - data-bs-toggle : collapse → navbar 형태구축 / data-bs-target : id명으로 해당 버튼으로 navbar 연결!
+  - d-none, d-sm-block, d-flex flex-row / d-none : 기본적으로 보이지 않음 / d-sm-block : small 사이즈 이상이면 block으로 나타남 / d-flex : display: flex / flex-row : flex-direction: row
+  - img-fluid : width: 100% 입니다!
+  - d-none, d-md-block: 원래는 안보이지만, middle 사이즈 이상부터는 보임 / align-items-center → align-items: center; / text-white-50 : 50% 투명도 준 것  
+
+```
+
+-----
+
 # FrontEnd Study Schedule
 
 ![FrontStudy1](https://user-images.githubusercontent.com/92035406/169362359-49ef184a-c192-4a67-aca0-5e3f0683c5e1.gif)
@@ -697,7 +730,7 @@ y-position : top, center, bottom,
 
 -----
 
-![FrontStudy3](https://user-images.githubusercontent.com/92035406/170296081-062ec377-5df2-408c-8730-4da77537b590.gif)
+![FrontStudy4](https://user-images.githubusercontent.com/92035406/170726632-b5c4ed4e-2435-4012-aa7c-c6a2a7d49f61.gif)
 
 
 ### 링크
@@ -709,6 +742,29 @@ y-position : top, center, bottom,
 
 2. window.scrollTo({top:0, left:0, behavior:"smooth"}); 를 버튼에 적용하여 자동스크롤 설정하는 것
 
+```
+
+-----
+
+![FrontStudy5](https://user-images.githubusercontent.com/92035406/170726774-de55ad39-427d-48c1-8195-ff675a1fa9a0.gif)
+
+
+### 링크
+<a href="https://velog.io/@hanseungjune/FrontStudy%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A0%9C%EC%9E%91-5%ED%8E%B8#%EC%A0%95%EB%A6%AC"><img src="https://img.shields.io/badge/Project_Day5-5D87BF?style=flat-square&logo=velog&logoColor=1A1F71"/></a>
+
+```
+
+# 이번 작업을 하면서 느낀점
+
+> - JS 작업이 생각보다 시간이 많이 걸리고 어려움
+> - 반응형을 HTML 및 CSS를 만들때 마다 미리 적용해두는게 좋은듯
+> - 마지막으로 병합할때는 div를 큰범위로 추가하여 위치 잡는게 좋아보임
+> - JS 작업 중에서 위치를 바꾸는 걸 반응형 크기에 따라서 유도리있게 할수 있는부분을 공부해야할듯
+> - 반응형 많이 안만듬 ( JS 구현 위주로 집중했다 )
+> - 다음부터는 JS 구현보다는 반응형 위주로 해야겠다.
+    - 768px 이하로 줄였을때 전체화면이 메뉴에 의해서 밀리는 모습 구현 희망
+    - 1050px 이하로 줄이고 Day, week, month 등을 눌렀을때 똑같은 높이대로 겹치지않고 잘 이동하는 모습 구현 희망
+    - 반응형은 1024px, 768px, 400px + 알파 의 기준으로 구분하기
 ```
 
 -----
