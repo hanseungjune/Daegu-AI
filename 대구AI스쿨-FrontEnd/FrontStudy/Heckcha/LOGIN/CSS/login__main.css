@@ -1,0 +1,182 @@
+:root {
+  --text-color: #f0f4f5;
+  --html-color: #1f2936;
+  --background-color: #263343;
+  --accent-color: #d46f66;
+  --red-color: #dd3737;
+  --opacity-red-color: #dd37377f;
+  --opacity-navy-color: #2633436f;
+  --gray-color: #aaaaaa;
+}
+
+.__login__main {
+  width: 1024px;
+  height: 650px;
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__1 {
+  width: 1024px;
+  height: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 로그인 왼쪽부분 */
+.login__email__password {
+  width: 512px;
+  height: 320px;
+}
+
+.login__main__password__0 {
+  width: 400px;
+  height: 210px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.login__main__password__1 {
+  width: 400px;
+  height: 42px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.login__main__password__1 h1 {
+  font-size: 30px;
+  color: var(--text-color);
+}
+
+.login__main__password__1 span {
+  font-size: 27px;
+  width: 30px;
+  height: 35px;
+  color: #ccc;
+  margin: 0 10px;
+  padding-right: 15px;
+  border-right: 2px solid #ccc;
+}
+
+.email__password {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--text-color);
+}
+
+.login__main__password__1 input{
+  width: 280px;
+  height: 30px;
+  margin: 0;
+  outline: none;
+  padding-left: 30px;
+  border : none;
+}
+
+.login__now__forgot__password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 410px;
+  padding: 0;
+}
+
+.login__now,
+.forgot__password {
+  width: 230px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: var(--text-color);
+}
+
+.login__now {
+  background-color: var(--red-color);
+}
+
+.forgot__password {
+  background-color: var(--background-color);
+}
+
+/* 로그인 오른쪽 부분 */
+.login__register {
+  width: 500px;
+  height: 320px;
+  display: block;
+  border-left: 1px solid rgba(204, 204, 204, 0.196);
+}
+
+.login__register__title {
+  width: 450px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.login__register__title h1{
+  display: inline-block;
+  color: var(--text-color);
+  font-size: 30px;
+  width: 350px;
+  margin: 0;
+}
+
+.login__register__button {
+  background-color: var(--red-color);
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.login__register__button h4{
+  color: var(--text-color);
+  font-size: 17px;
+}
+
+/* 로그인 하단 부분 */
+.login__1__div {
+  width: 512px;
+  height: 315px;
+  margin-left: 265px;
+}
+
+.login__1__div__signin {
+  width: 420px;
+  height: 47px;
+  margin: 18px 0px;
+  margin-left: 45px;
+  text-align: center;
+  line-height: 45px;
+}
+
+.login__1__div__signin span {
+  margin: 0px 20px;
+  font-size: 17px;
+}
+
+.login__1__div__signin i {
+  color: var(--text-color);
+}
+
+.signin__facebook {
+  background-color: rgb(51, 105, 199);
+}
+
+.signin__google {
+  background-color: var(--red-color);
+}
+
+.signin__twitter {
+  background-color: rgb(0, 140, 255);
+}
+
