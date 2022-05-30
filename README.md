@@ -635,6 +635,39 @@ y-position : top, center, bottom,
 
 -----
 
+## Day20
+![Day20](https://user-images.githubusercontent.com/92035406/170965819-45fe081e-a73d-4c25-aac3-a02c1a811d60.gif)
+
+
+### 링크
+<a href="https://velog.io/@hanseungjune/DAY20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-BootStrap-%EC%8B%A4%EC%8A%B5"><img src="https://img.shields.io/badge/Day20_1-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+<a href="https://velog.io/@hanseungjune/DAY202%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-BootStrap-%EC%8B%A4%EC%8A%B5"><img src="https://img.shields.io/badge/Day20_2-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+
+```
+1. 첫번째 실습 부분
+  - container-fluid는 모든 화면에서 width:100%
+  - sm 사이즈 이하로 줄이면 navbar 는 세로 정렬 : navbar-expand-sm
+  - ul:navbar-nav / li: nav-item / a: nav-link → 묶음!
+  - nav에 navbar를 쓰지 않으면, 그 기능을 상실한다. ( 내가 지웠다가 써봄 )
+  - ul: nav-pills, li: active → navbar 배경 채우기
+  - hr: d-sm-none → small 사이즈 이상 되면 없어짐
+  - col-sm-8 → small 사이즈 이상부터 8/12 차지
+  - ms : margin-start
+  - bi bi-twitch : icons 삽입
+  
+
+2. 두번째 실습 부분
+  - navbar-expand-sm : 세로정렬 / fixed-top : navbar 화면 상단 고정 / navbar-brand : 로고를 나타냄
+  - button 태그에는 navbar-toggler / span 태그에는 navbar-toggler-icon.
+  - data-bs-toggle : collapse → navbar 형태구축 / data-bs-target : id명으로 해당 버튼으로 navbar 연결!
+  - d-none, d-sm-block, d-flex flex-row / d-none : 기본적으로 보이지 않음 / d-sm-block : small 사이즈 이상이면 block으로 나타남 / d-flex : display: flex / flex-row : flex-direction: row
+  - img-fluid : width: 100% 입니다!
+  - d-none, d-md-block: 원래는 안보이지만, middle 사이즈 이상부터는 보임 / align-items-center → align-items: center; / text-white-50 : 50% 투명도 준 것  
+
+```
+
+-----
+
 # FrontEnd Study Schedule
 
 ![FrontStudy1](https://user-images.githubusercontent.com/92035406/169362359-49ef184a-c192-4a67-aca0-5e3f0683c5e1.gif)
