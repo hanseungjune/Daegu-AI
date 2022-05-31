@@ -4,8 +4,6 @@
 
 ## Day1
 
-![Day1](https://user-images.githubusercontent.com/92035406/169356786-07bd308f-671e-49ba-8cf6-f9dcc22e7490.gif)
-
 ### 링크
 <a href="https://velog.io/@hanseungjune/DAY1%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EC%9B%B9-%EA%B0%9C%EB%B0%9C-%EC%8B%9C%EC%9E%91%EA%B3%BC-%EC%A4%80%EB%B9%84-%EC%9B%B9-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%85%94%EA%B0%80-%ED%95%98%EB%8A%94-%EC%9D%BC"><img src="https://img.shields.io/badge/Day1-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
@@ -29,8 +27,6 @@ reg; : ®(앞에 & 붙여야함)
 -----
 
 ## Day2~3
-
-![Day23](https://user-images.githubusercontent.com/92035406/169357083-ece86d23-ffe0-4973-b429-d1239cd424b6.gif)
 
 ### 링크
 <a href="https://velog.io/@hanseungjune/DAY23%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-HTML-%ED%83%9C%EA%B7%B81"><img src="https://img.shields.io/badge/Day2~3-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
@@ -101,9 +97,6 @@ reg; : ®(앞에 & 붙여야함)
 -----
 
 ## Day4
-
-![Day4](https://user-images.githubusercontent.com/92035406/169357561-32d12a90-40aa-4dcb-856b-50f7afbb11dc.gif)
-
 ### 링크
 <a href="https://velog.io/@hanseungjune/DAY4%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-BUTTON%EA%B3%BC-%EB%AC%B8%EC%84%9C-%EA%B5%AC%EC%A1%B0%ED%99%94"><img src="https://img.shields.io/badge/Day4-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
@@ -160,9 +153,6 @@ reg; : ®(앞에 & 붙여야함)
 ---
 
 ## Day5
-
-![Day5](https://user-images.githubusercontent.com/92035406/169357572-e9e2823c-e41a-4a73-b0e2-163c5665ff0d.gif)
-
 ### 링크
 <a href="https://velog.io/@hanseungjune/DAY5%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-HTML%EB%A1%9C-%EB%A7%8C%EB%93%9C%EB%8A%94-%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%BC%88%EB%8C%80"><img src="https://img.shields.io/badge/Day5-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
@@ -204,9 +194,6 @@ reg; : ®(앞에 & 붙여야함)
 -----
 
 ## Day6
-
-![Day6](https://user-images.githubusercontent.com/92035406/169358658-bff0943d-e8b8-4681-81c9-d3948927de45.gif)
-
 ### 링크
 <a href="https://velog.io/@hanseungjune/DAY6%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80"><img src="https://img.shields.io/badge/Day6-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
@@ -243,9 +230,6 @@ reg; : ®(앞에 & 붙여야함)
 -----
 
 ## Day7
-
-![Day7](https://user-images.githubusercontent.com/92035406/169358677-df22dd0e-87a3-4c22-bb63-2ad9b15e5985.gif)
-
 ### 링크
 <a href="https://velog.io/@hanseungjune/DAY7-1%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-Background"><img src="https://img.shields.io/badge/Day7.1-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a><a href="https://velog.io/@hanseungjune/DAY7-2%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-Text-List"><img src="https://img.shields.io/badge/Day7.2-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
@@ -290,9 +274,6 @@ reg; : ®(앞에 & 붙여야함)
 -----
 
 ## Day8
-
-![Day8](https://user-images.githubusercontent.com/92035406/169358700-b9530ea5-7ee9-44c9-a5ec-2e3ec7669324.gif)
-
 ### 링크
 <a href="https://velog.io/@hanseungjune/DAY8%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EB%8F%8C%EB%A6%AC%EA%B3%A0-%EB%92%A4%EC%A7%91%EA%B3%A0"><img src="https://img.shields.io/badge/Day8-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
@@ -313,9 +294,6 @@ reg; : ®(앞에 & 붙여야함)
 -----
 
 ## Day9
-
-![Day9](https://user-images.githubusercontent.com/92035406/169358708-14f77773-13b6-4887-9513-11c1dcadcc70.gif)
-
 ### 링크
 <a href="https://velog.io/@hanseungjune/DAY9-1%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-border-style-radius"><img src="https://img.shields.io/badge/Day9.1-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a><a href="https://velog.io/@hanseungjune/DAY9-2%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-margin-padding-box-sizing"><img src="https://img.shields.io/badge/Day9.2-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a><a href="https://velog.io/@hanseungjune/DAY9-3%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-border-style-radius"><img src="https://img.shields.io/badge/Day9.3-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a><a href="https://velog.io/@hanseungjune/DAY9-4%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-displaynone-block-inline-inline-block"><img src="https://img.shields.io/badge/Day9.4-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
@@ -368,11 +346,9 @@ reg; : ®(앞에 & 붙여야함)
 -----
 
 ## Day10
-
-![Day10](https://user-images.githubusercontent.com/92035406/169358728-6020743f-66f9-4f79-be21-64256b0a2a45.gif)
-
 ### 링크
-<a href="https://velog.io/@hanseungjune/DAY10-1%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-position-static-fixed-relativeabsolute"><img src="https://img.shields.io/badge/Day10.1-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a><a href="https://velog.io/@hanseungjune/DAY10-2%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-float-z-index"><img src="https://img.shields.io/badge/Day10.2-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+<a href="https://velog.io/@hanseungjune/DAY10-1%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-position-static-fixed-relativeabsolute"><img src="https://img.shields.io/badge/Day10.1-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+<a href="https://velog.io/@hanseungjune/DAY10-2%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-float-z-index"><img src="https://img.shields.io/badge/Day10.2-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
 ```
 
@@ -394,9 +370,6 @@ reg; : ®(앞에 & 붙여야함)
 -----
 
 ## Day11
-
-![Day11](https://user-images.githubusercontent.com/92035406/169358746-e42d2d01-6872-4d4f-a16a-90a2323b5020.gif)
-
 ### 링크
 <a href="https://velog.io/@hanseungjune/DAY11-1%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80"><img src="https://img.shields.io/badge/Day11-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
@@ -416,9 +389,6 @@ reg; : ®(앞에 & 붙여야함)
 ----
 
 ## Day12
-
-![Day12](https://user-images.githubusercontent.com/92035406/169358752-b1e97207-4098-487e-ada2-7ceda3c5623d.gif)
-
 ### 링크
 <a href="https://velog.io/@hanseungjune/DAY12-1%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%A0%9C%EC%9E%91"><img src="https://img.shields.io/badge/Day12-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
@@ -439,8 +409,6 @@ reg; : ®(앞에 & 붙여야함)
 -----
 
 ## Day13
-![Day13-2](https://user-images.githubusercontent.com/92035406/169552688-2130d1ef-a4ea-43fa-afee-5f97eb94b8cd.gif)
-
 ### 링크
 <a href="https://velog.io/@hanseungjune/DAY13-1%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%A0%9C%EC%9E%91-%EB%B0%8F-%EB%A7%88%EB%AC%B4%EB%A6%AC"><img src="https://img.shields.io/badge/Day13-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
@@ -458,8 +426,6 @@ reg; : ®(앞에 & 붙여야함)
 -----
 
 ## Day14
-![Day14](https://user-images.githubusercontent.com/92035406/169642325-9c68a2b2-b5b9-4674-bffd-1f4401306d81.gif)
-
 ### 링크
 <a href="https://velog.io/@hanseungjune/DAY14%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EB%AF%B8%EB%8B%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-Cafe-%EC%A0%9C%EC%8B%9C%ED%95%9C-%EC%A1%B0%EA%B1%B4%EC%9D%B4-%EB%94%B0%EB%A1%9C-%EC%9E%88%EC%9D%8C"><img src="https://img.shields.io/badge/Day14-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
@@ -492,11 +458,9 @@ reg; : ®(앞에 & 붙여야함)
 -----
 
 ## Day15
-![Day15_3GIT](https://user-images.githubusercontent.com/92035406/169788082-028e6c6b-77e4-4d94-8c72-b2ff09809d4a.gif)
-
-
 ### 링크
-<a href="https://velog.io/@hanseungjune/DAY15%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-CSS1#0-%EB%AA%A9%EC%B0%A8"><img src="https://img.shields.io/badge/Day15-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+<a href="https://velog.io/@hanseungjune/DAY15%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-CSS1#0-%EB%AA%A9%EC%B0%A8">
+<img src="https://img.shields.io/badge/Day15-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
 ```
 
@@ -527,11 +491,9 @@ reg; : ®(앞에 & 붙여야함)
 -----
 
 ## Day16
-![Day16](https://user-images.githubusercontent.com/92035406/170030564-72f94be5-5f9d-4947-aad5-73da61de9663.gif)
-
-
 ### 링크
-<a href="https://velog.io/@hanseungjune/DAY16%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-CSS-%EB%B3%B5%EC%8A%B5-FLEX-%EC%99%80-GRID#%EC%86%8C%EA%B0%90"><img src="https://img.shields.io/badge/Day16-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+<a href="https://velog.io/@hanseungjune/DAY16%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-CSS-%EB%B3%B5%EC%8A%B5-FLEX-%EC%99%80-GRID#%EC%86%8C%EA%B0%90">
+<img src="https://img.shields.io/badge/Day16-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
 ```
 
@@ -548,11 +510,9 @@ reg; : ®(앞에 & 붙여야함)
 -----
 
 ## Day17
-![Day17](https://user-images.githubusercontent.com/92035406/170294566-f610440e-565f-463c-9a8b-8a560f9e3345.gif)
-
-
 ### 링크
-<a href="https://velog.io/@hanseungjune/DAY17%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-CSS-%EB%B3%B5%EC%8A%B5#2-%EA%B3%A0%EC%96%91%EC%9D%B4%EA%B0%80-%EC%B5%9C%EA%B3%A0%E2%91%A0"><img src="https://img.shields.io/badge/Day17-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+<a href="https://velog.io/@hanseungjune/DAY17%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-CSS-%EB%B3%B5%EC%8A%B5#2-%EA%B3%A0%EC%96%91%EC%9D%B4%EA%B0%80-%EC%B5%9C%EA%B3%A0%E2%91%A0">
+<img src="https://img.shields.io/badge/Day17-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
 ```
 background-position: x-position y-position 
@@ -578,11 +538,9 @@ y-position : top, center, bottom,
 -----
 
 ## Day18
-![Day18](https://user-images.githubusercontent.com/92035406/170454669-c2134751-a038-4f25-a67c-78828059f69d.gif)
-
-
 ### 링크
-<a href="https://velog.io/@hanseungjune/DAY18%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-CSS-%EB%B3%B5%EC%8A%B5#4-svg-animation-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-img-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-loading-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-getskeleton-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC"><img src="https://img.shields.io/badge/Day18-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+<a href="https://velog.io/@hanseungjune/DAY18%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-CSS-%EB%B3%B5%EC%8A%B5#4-svg-animation-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-img-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-loading-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-getskeleton-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC">
+<img src="https://img.shields.io/badge/Day18-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
 ```
 1. outline-offset, clip-path
@@ -609,12 +567,9 @@ y-position : top, center, bottom,
 -----
 
 ## Day19
-![Day19 1](https://user-images.githubusercontent.com/92035406/170681972-45cf7c07-d21a-449b-9c34-35c22df3b492.gif)
-
-
-
 ### 링크
-<a href="https://velog.io/@hanseungjune/DAY19%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-BootStrap-v5.2#%EC%86%8C%EA%B0%90"><img src="https://img.shields.io/badge/Day19-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+<a href="https://velog.io/@hanseungjune/DAY19%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-BootStrap-v5.2#%EC%86%8C%EA%B0%90">
+<img src="https://img.shields.io/badge/Day19-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
 ```
 1. BootStrap 사용을 왜 할까?
@@ -636,12 +591,11 @@ y-position : top, center, bottom,
 -----
 
 ## Day20
-![Day20](https://user-images.githubusercontent.com/92035406/170965819-45fe081e-a73d-4c25-aac3-a02c1a811d60.gif)
-
-
 ### 링크
-<a href="https://velog.io/@hanseungjune/DAY20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-BootStrap-%EC%8B%A4%EC%8A%B5"><img src="https://img.shields.io/badge/Day20_1-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
-<a href="https://velog.io/@hanseungjune/DAY202%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-BootStrap-%EC%8B%A4%EC%8A%B5"><img src="https://img.shields.io/badge/Day20_2-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+<a href="https://velog.io/@hanseungjune/DAY20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-BootStrap-%EC%8B%A4%EC%8A%B5">
+<img src="https://img.shields.io/badge/Day20_1-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+<a href="https://velog.io/@hanseungjune/DAY202%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-BootStrap-%EC%8B%A4%EC%8A%B5">
+<img src="https://img.shields.io/badge/Day20_2-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
 
 ```
 1. 첫번째 실습 부분
@@ -666,6 +620,23 @@ y-position : top, center, bottom,
 
 ```
 
+-----
+
+## Day21
+### 링크
+<a href="https://velog.io/@hanseungjune/DAY21%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-%EB%8B%B7%ED%99%88-%ED%98%B8%EC%8A%A4%ED%8C%85">
+<img src="https://img.shields.io/badge/Day21-aec0cf?style=flat-square&logo=velog&logoColor=gray"/></a>
+
+```
+
+1. 웹서버 운영
+2. 웹서버 구축
+3. 무료 호스팅
+4. FileZilla
+
+자세한 정보는 위의 뱃지를 클릭하면 볼수 있다.
+
+```
 -----
 
 # FrontEnd Study Schedule
