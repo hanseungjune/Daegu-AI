@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <style>
+        *{
+            background-color: rgb(243, 242, 242);
+        }
+        a{
+            text-decoration: none;
+        }
+        h1{
+            color: rgb(255, 82, 82);
+            font-size: 70px;
+            text-shadow: 5px 10px 5px rgb(177, 177, 177);
+        }
+        h4{
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        input{
+            font-size: 20px;
+            padding: 15px;
+            background-color: white;
+            border-color: rgb(228, 228, 228);
+            padding-right: 262px;
+        }
+        select{
+            font-size: 20px;
+            padding: 15px;
+            background-color: white;
+            border-color: rgb(228, 228, 228);
+        }
+        .sub input{
+            padding-left: 200px;
+            padding-right: 200px;
+            background-color: rgb(255, 82, 82);
+            color: white;
+            font-weight: bolder;
+            font-size: 30px;
+        }
+        .yd input{
+            padding-right: 0px;
+        }
+        .ema input{
+            padding-right: 90px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <a href="../index.html">
+            <h1>Heckcha</h1>
+        </a>
+        <H4>아이디</H4>
+        <input type="text" required minlength="2" maxlength="12">
+        <h4>비밀번호</h4>
+        <input type="password" required>
+        <h4>비밀번호 재확인</h4>
+        <input type="password" required>
+        <h4>이름</h4>
+        <input type="text" required>
+        <h4>생년월일</h4>
+        <div class="yd">
+            <input type="text" placeholder="년(4자)" required  minlength="4" maxlength="4" size="18">
+            <select name="month" id="month">
+                <option value="mon">월</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <input type="text" placeholder="일" required  minlength="1" maxlength="2" size="13">
+        </div>
+        <h4>성별</h4>
+        <select name="gender" id="gender">
+            <option value="gen">성별</option>
+            <option value="man">남자</option>
+            <option value="woman">여자</option>
+        </select>
+        <h4>이메일</h4>
+        <div class="ema">
+            <input type="email" required minlength="2" maxlength="20" size="20">
+            <select name="email" id="email">
+                <option value="e">이메일</option>
+                <option value="google">@gmail.com</option>
+                <option value="naver">@naver.com</option>
+            </select>
+        </div>
+        <h4>휴대전화</h4>
+        <input type="tel" required>
+        <div class="sub">
+            <p><input type="submit" value="가입하기"></p>
+        </div>
+    </form>
+    
+</body>
+</html>
