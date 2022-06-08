@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>시간중첩</title>
+</head>
+<body>
+
+<script>
+  const date = new Date();
+  const hours = date.getHours();
+
+  if(hours < 11 ) {
+    console.log(`아침식사 시간!`)
+  }
+  else {
+    if ( hours <= 17 ) {
+      console.log(`점심식사 시간!`);
+    }
+    else {
+      console.log(`저녁식사 시간!`);
+    }
+  }
+
+  if ( hours < 11 ) {
+    console.log(`아침식사 시간!`)
+  }
+  else if ( hours <= 17 ) {
+    console.log(`점심식사 시간!`);
+  }
+  else {
+    console.log(`저녁식사 시간!`);
+  }
+</script>
+</body>
+</html>

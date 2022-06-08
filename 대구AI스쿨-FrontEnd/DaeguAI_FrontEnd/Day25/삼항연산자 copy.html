@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+<script>
+
+let name = "홍길동";
+let grade = 4;
+
+let greeting = (grade <= 2) ? `${name.slice(1,3)}이 안녕? 이번에 MT가야지? ㅎㅎ` :
+               (grade <= 3) ? `${name.slice(1,3)}오빠 과제 다 하셨어요? ㅠㅠ` :
+               (grade <= 4) ? `${name.slice(1,3)} 선배님 안녕하십니까! ( 화석이 왜 학교 나오냐... )` :
+               "누구세요?";
+
+console.log(greeting);
+
+</script>
+</body>
+
+</html>

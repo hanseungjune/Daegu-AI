@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+<script>
+  let name = prompt("성함이 어떻게 되십니까?","홍길동");
+  let age = Number(prompt("나이가 어떻게 되십니까?","20"));
+
+  if ( age <= 13 ) {
+    console.log(`${name} 님은 나이가 ${age}세이므로 어린이입니다.`);
+  }
+  else if( age <= 19 ) {
+    console.log(`${name} 님은 나이가 ${age}세이므로 청소년입니다.`);
+  }
+  else {
+    console.log(`${name} 님은 나이가 ${age}세이므로 성인입니다.`);
+  }
+</script>
+</body>
+</html>
