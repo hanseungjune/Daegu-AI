@@ -1,0 +1,37 @@
+<!-- for문 기본구조 -->
+<!-- for(초기값; 조건식; 증감식){
+    실행문
+} -->
+
+<!-- for (let i=0; i < 100; i++){
+
+       console.log(i);) 
+
+→ 인덱스(i) = 0부터 시작해서 100 이전의 수까지 반복할 거고,
+i는 1씩 커지며 증가할거다 (i++) 이때 i를 출력해라
+→ 결과값 : 0, 1, 2, 3, 4, 5 ... 99 -->
+
+<!-- 배열을 쓸 경우에만 let 말고 const도 사용가능하다. (예외) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    const fsk = ['사과', '딸기', '수박', '참외']
+
+    for (let i = 0; i < fsk.length; i++) {
+      console.log(`${i + 1}번째 과일은 ${fsk[i]}`);
+    }
+
+
+  </script>
+</body>
+
+</html>
