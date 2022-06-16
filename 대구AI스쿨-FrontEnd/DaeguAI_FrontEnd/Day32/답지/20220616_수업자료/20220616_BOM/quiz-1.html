@@ -1,0 +1,23 @@
+<!-- 웹 브라우저에서 문서를 불러오면 자동으로 current.html문서를 알림창에 표시하는 소스를 
+작성하세요. 알림창의 너비는 300픽셀, 높이는 50픽셀입니다. -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>팝업 창 표시하기</title>
+</head>
+<body>
+  <script>
+        window.onload = window.open("current.html", "", "width=300, height=50");
+
+// 아래 방법처럼 displayTime() 함수를 선언한 후 load 이벤트가 발생했을 때 함수를 연결할 수도 있음.
+// window.onload = displayTime();
+// function displayTime() {
+//   window.open("current.html", "", "width=300, height=50");
+// }
+
+  </script>  
+</body>
+</html>
