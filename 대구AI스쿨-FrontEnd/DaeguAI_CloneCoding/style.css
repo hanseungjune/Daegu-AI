@@ -1,0 +1,102 @@
+*{
+   margin: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* --------header 부분---------- */
+header{
+   background: url('./리소프트_홈페이지_이미지/헤더배경.png') no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 840px;
+   z-index: 90;
+   position: relative;
+
+}
+
+#CI_wrapper{
+   width: 1400px;
+   margin: 0 auto;
+   padding-top: 25px;
+}
+
+.banner_wrapper{
+   width: 1400px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.banner_text_wrapper{
+   padding-top: 15%;
+   color: #DDDD;
+}
+
+.banner_text_wrapper .banner_text_title{
+  font-size: 50px;
+  font-weight: 600;
+  padding-bottom: 35px;
+  line-height: 60px;
+}
+
+.banner_text_con{
+   font-weight: 500;
+   line-height: 20px;
+}
+
+.banner_img_wrapper{
+   position: absolute;
+   right: 0;
+   top: 9%;
+}
+
+/* ----container--------- */
+#container{
+   height: 1200px;
+}
+
+/* ------------footer 부분------------ */
+.footer_wrapper{
+   background: url('./리소프트_홈페이지_이미지/footer2.png') no-repeat;
+   background-size: cover;
+   display: flex;
+   padding: 80px 50px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.img_wrapper{
+   margin-left: 250px;
+}
+
+.footer_contents{
+   margin-left: 5%;
+   width: 85%;
+   display: inline-block;
+}
+
+.footer_con_title{
+   color: white;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.footer_con_wrapper{
+   color: #b9b9b9;
+   line-height: 25px;
+}
+
+.footer_con{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.footer_con p{
+   margin: 0 !important;
+   width: calc(100% / 2);
+}
+
+.copyright{
+   color: #828282;
+}

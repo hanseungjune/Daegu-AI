@@ -1,0 +1,17 @@
+* {
+  margin: 0 auto;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Noto Serif KR', serif;
+  color: white;
+}
+
+.header {
+  width: 2000px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.top__wrap {
+
+}
